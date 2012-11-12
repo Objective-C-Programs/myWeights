@@ -27,7 +27,25 @@
 		A93CE1B416518A910069257A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A93CE18316518A900069257A /* UIKit.framework */; };
 		A93CE1B516518A910069257A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A93CE18516518A900069257A /* Foundation.framework */; };
 		A93CE1BD16518A910069257A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A93CE1BB16518A910069257A /* InfoPlist.strings */; };
-		A93CE1C016518A910069257A /* myWeightsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE1BF16518A910069257A /* myWeightsTests.m */; };
+		A93CE1D116518BB00069257A /* WeightEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE1D016518BB00069257A /* WeightEntry.m */; };
+		A93CE1D216518BB00069257A /* WeightEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE1D016518BB00069257A /* WeightEntry.m */; };
+		A93CE1D516518BD90069257A /* EnterWeightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE1D416518BD90069257A /* EnterWeightViewController.m */; };
+		A93CE1D616518BD90069257A /* EnterWeightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE1D416518BD90069257A /* EnterWeightViewController.m */; };
+		A93CE1D916518C7E0069257A /* UnitSelectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE1D816518C7E0069257A /* UnitSelectorViewController.m */; };
+		A93CE1DA16518C7E0069257A /* UnitSelectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE1D816518C7E0069257A /* UnitSelectorViewController.m */; };
+		A93CE1DD16518CEA0069257A /* WeightHistory.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE1DC16518CEA0069257A /* WeightHistory.m */; };
+		A93CE1DE16518CEA0069257A /* WeightHistory.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE1DC16518CEA0069257A /* WeightHistory.m */; };
+		A93CE1E116518D380069257A /* Database.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE1E016518D380069257A /* Database.m */; };
+		A93CE1E216518D380069257A /* Database.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE1E016518D380069257A /* Database.m */; };
+		A93CE1E516518D730069257A /* Pesi.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE1E416518D730069257A /* Pesi.m */; };
+		A93CE1E616518D730069257A /* Pesi.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE1E416518D730069257A /* Pesi.m */; };
+		A93CE1E816518DC00069257A /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A93CE1E716518DC00069257A /* libsqlite3.0.dylib */; };
+		A93CE1EC16518FFC0069257A /* GraphStats.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE1EB16518FFC0069257A /* GraphStats.m */; };
+		A93CE1ED16518FFC0069257A /* GraphStats.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE1EB16518FFC0069257A /* GraphStats.m */; };
+		A93CE1F01651903E0069257A /* GraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE1EF1651903E0069257A /* GraphView.m */; };
+		A93CE1F11651903E0069257A /* GraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE1EF1651903E0069257A /* GraphView.m */; };
+		A93CE1F41651907D0069257A /* GraphViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE1F31651907D0069257A /* GraphViewViewController.m */; };
+		A93CE1F51651907D0069257A /* GraphViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE1F31651907D0069257A /* GraphViewViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,8 +85,25 @@
 		A93CE1B216518A910069257A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		A93CE1BA16518A910069257A /* myWeightsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "myWeightsTests-Info.plist"; sourceTree = "<group>"; };
 		A93CE1BC16518A910069257A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A93CE1BE16518A910069257A /* myWeightsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = myWeightsTests.h; sourceTree = "<group>"; };
-		A93CE1BF16518A910069257A /* myWeightsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myWeightsTests.m; sourceTree = "<group>"; };
+		A93CE1CF16518BB00069257A /* WeightEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeightEntry.h; sourceTree = "<group>"; };
+		A93CE1D016518BB00069257A /* WeightEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeightEntry.m; sourceTree = "<group>"; };
+		A93CE1D316518BD90069257A /* EnterWeightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnterWeightViewController.h; sourceTree = "<group>"; };
+		A93CE1D416518BD90069257A /* EnterWeightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterWeightViewController.m; sourceTree = "<group>"; };
+		A93CE1D716518C7E0069257A /* UnitSelectorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnitSelectorViewController.h; sourceTree = "<group>"; };
+		A93CE1D816518C7E0069257A /* UnitSelectorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnitSelectorViewController.m; sourceTree = "<group>"; };
+		A93CE1DB16518CEA0069257A /* WeightHistory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeightHistory.h; sourceTree = "<group>"; };
+		A93CE1DC16518CEA0069257A /* WeightHistory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeightHistory.m; sourceTree = "<group>"; };
+		A93CE1DF16518D380069257A /* Database.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Database.h; sourceTree = "<group>"; };
+		A93CE1E016518D380069257A /* Database.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Database.m; sourceTree = "<group>"; };
+		A93CE1E316518D730069257A /* Pesi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pesi.h; sourceTree = "<group>"; };
+		A93CE1E416518D730069257A /* Pesi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pesi.m; sourceTree = "<group>"; };
+		A93CE1E716518DC00069257A /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		A93CE1EA16518FFC0069257A /* GraphStats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphStats.h; sourceTree = "<group>"; };
+		A93CE1EB16518FFC0069257A /* GraphStats.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphStats.m; sourceTree = "<group>"; };
+		A93CE1EE1651903E0069257A /* GraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphView.h; sourceTree = "<group>"; };
+		A93CE1EF1651903E0069257A /* GraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphView.m; sourceTree = "<group>"; };
+		A93CE1F21651907D0069257A /* GraphViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphViewViewController.h; sourceTree = "<group>"; };
+		A93CE1F31651907D0069257A /* GraphViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphViewViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A93CE1E816518DC00069257A /* libsqlite3.0.dylib in Frameworks */,
 				A93CE18416518A900069257A /* UIKit.framework in Frameworks */,
 				A93CE18616518A900069257A /* Foundation.framework in Frameworks */,
 				A93CE18816518A900069257A /* CoreGraphics.framework in Frameworks */,
@@ -98,6 +134,7 @@
 		A93CE17416518A900069257A = {
 			isa = PBXGroup;
 			children = (
+				A93CE1E716518DC00069257A /* libsqlite3.0.dylib */,
 				A93CE18916518A900069257A /* myWeights */,
 				A93CE1B816518A910069257A /* myWeightsTests */,
 				A93CE18216518A900069257A /* Frameworks */,
@@ -128,6 +165,9 @@
 		A93CE18916518A900069257A /* myWeights */ = {
 			isa = PBXGroup;
 			children = (
+				A93CE1E916518FE70069257A /* Views */,
+				A93CE1CE16518B9B0069257A /* Models */,
+				A93CE1C916518B670069257A /* Controllers */,
 				A93CE19216518A900069257A /* AppDelegate.h */,
 				A93CE19316518A900069257A /* AppDelegate.m */,
 				A93CE19B16518A910069257A /* MainStoryboard.storyboard */,
@@ -161,8 +201,6 @@
 		A93CE1B816518A910069257A /* myWeightsTests */ = {
 			isa = PBXGroup;
 			children = (
-				A93CE1BE16518A910069257A /* myWeightsTests.h */,
-				A93CE1BF16518A910069257A /* myWeightsTests.m */,
 				A93CE1B916518A910069257A /* Supporting Files */,
 			);
 			path = myWeightsTests;
@@ -175,6 +213,45 @@
 				A93CE1BB16518A910069257A /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A93CE1C916518B670069257A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A93CE1D316518BD90069257A /* EnterWeightViewController.h */,
+				A93CE1D416518BD90069257A /* EnterWeightViewController.m */,
+				A93CE1D716518C7E0069257A /* UnitSelectorViewController.h */,
+				A93CE1D816518C7E0069257A /* UnitSelectorViewController.m */,
+				A93CE1F21651907D0069257A /* GraphViewViewController.h */,
+				A93CE1F31651907D0069257A /* GraphViewViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		A93CE1CE16518B9B0069257A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A93CE1CF16518BB00069257A /* WeightEntry.h */,
+				A93CE1D016518BB00069257A /* WeightEntry.m */,
+				A93CE1DB16518CEA0069257A /* WeightHistory.h */,
+				A93CE1DC16518CEA0069257A /* WeightHistory.m */,
+				A93CE1DF16518D380069257A /* Database.h */,
+				A93CE1E016518D380069257A /* Database.m */,
+				A93CE1E316518D730069257A /* Pesi.h */,
+				A93CE1E416518D730069257A /* Pesi.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		A93CE1E916518FE70069257A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A93CE1EA16518FFC0069257A /* GraphStats.h */,
+				A93CE1EB16518FFC0069257A /* GraphStats.m */,
+				A93CE1EE1651903E0069257A /* GraphView.h */,
+				A93CE1EF1651903E0069257A /* GraphView.m */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,6 +372,15 @@
 				A93CE19416518A900069257A /* AppDelegate.m in Sources */,
 				A93CE1A016518A910069257A /* FirstViewController.m in Sources */,
 				A93CE1A716518A910069257A /* SecondViewController.m in Sources */,
+				A93CE1D116518BB00069257A /* WeightEntry.m in Sources */,
+				A93CE1D516518BD90069257A /* EnterWeightViewController.m in Sources */,
+				A93CE1D916518C7E0069257A /* UnitSelectorViewController.m in Sources */,
+				A93CE1DD16518CEA0069257A /* WeightHistory.m in Sources */,
+				A93CE1E116518D380069257A /* Database.m in Sources */,
+				A93CE1E516518D730069257A /* Pesi.m in Sources */,
+				A93CE1EC16518FFC0069257A /* GraphStats.m in Sources */,
+				A93CE1F01651903E0069257A /* GraphView.m in Sources */,
+				A93CE1F41651907D0069257A /* GraphViewViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,7 +388,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A93CE1C016518A910069257A /* myWeightsTests.m in Sources */,
+				A93CE1D216518BB00069257A /* WeightEntry.m in Sources */,
+				A93CE1D616518BD90069257A /* EnterWeightViewController.m in Sources */,
+				A93CE1DA16518C7E0069257A /* UnitSelectorViewController.m in Sources */,
+				A93CE1DE16518CEA0069257A /* WeightHistory.m in Sources */,
+				A93CE1E216518D380069257A /* Database.m in Sources */,
+				A93CE1E616518D730069257A /* Pesi.m in Sources */,
+				A93CE1ED16518FFC0069257A /* GraphStats.m in Sources */,
+				A93CE1F11651903E0069257A /* GraphView.m in Sources */,
+				A93CE1F51651907D0069257A /* GraphViewViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
