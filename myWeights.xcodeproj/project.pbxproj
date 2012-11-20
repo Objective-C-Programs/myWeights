@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A90BF16A165B80EC00EE5D65 /* 57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = A90BF169165B80EC00EE5D65 /* 57x57.png */; };
+		A90BF16D165B80EF00EE5D65 /* 114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = A90BF16C165B80EF00EE5D65 /* 114x114.png */; };
 		A93CE18416518A900069257A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A93CE18316518A900069257A /* UIKit.framework */; };
 		A93CE18616518A900069257A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A93CE18516518A900069257A /* Foundation.framework */; };
 		A93CE18816518A900069257A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A93CE18716518A900069257A /* CoreGraphics.framework */; };
@@ -46,6 +48,14 @@
 		A93CE1F11651903E0069257A /* GraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE1EF1651903E0069257A /* GraphView.m */; };
 		A93CE1F41651907D0069257A /* GraphViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE1F31651907D0069257A /* GraphViewViewController.m */; };
 		A93CE1F51651907D0069257A /* GraphViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE1F31651907D0069257A /* GraphViewViewController.m */; };
+		A93CE1F8165191A50069257A /* HistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE1F7165191A50069257A /* HistoryViewController.m */; };
+		A93CE1F9165191A50069257A /* HistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE1F7165191A50069257A /* HistoryViewController.m */; };
+		A93CE1FC165191CE0069257A /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE1FB165191CE0069257A /* DetailViewController.m */; };
+		A93CE1FD165191CE0069257A /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE1FB165191CE0069257A /* DetailViewController.m */; };
+		A93CE200165192090069257A /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE1FF165192090069257A /* TabBarController.m */; };
+		A93CE201165192090069257A /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE1FF165192090069257A /* TabBarController.m */; };
+		A93CE204165192690069257A /* HistoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE203165192680069257A /* HistoryCell.m */; };
+		A93CE205165192690069257A /* HistoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE203165192680069257A /* HistoryCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +69,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A90BF169165B80EC00EE5D65 /* 57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 57x57.png; sourceTree = "<group>"; };
+		A90BF16C165B80EF00EE5D65 /* 114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 114x114.png; sourceTree = "<group>"; };
 		A93CE17F16518A900069257A /* myWeights.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myWeights.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A93CE18316518A900069257A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A93CE18516518A900069257A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -104,6 +116,14 @@
 		A93CE1EF1651903E0069257A /* GraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphView.m; sourceTree = "<group>"; };
 		A93CE1F21651907D0069257A /* GraphViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphViewViewController.h; sourceTree = "<group>"; };
 		A93CE1F31651907D0069257A /* GraphViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphViewViewController.m; sourceTree = "<group>"; };
+		A93CE1F6165191A40069257A /* HistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryViewController.h; sourceTree = "<group>"; };
+		A93CE1F7165191A50069257A /* HistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryViewController.m; sourceTree = "<group>"; };
+		A93CE1FA165191CE0069257A /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		A93CE1FB165191CE0069257A /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		A93CE1FE165192090069257A /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
+		A93CE1FF165192090069257A /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
+		A93CE202165192680069257A /* HistoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryCell.h; sourceTree = "<group>"; };
+		A93CE203165192680069257A /* HistoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,7 +154,10 @@
 		A93CE17416518A900069257A = {
 			isa = PBXGroup;
 			children = (
+				A90BF16C165B80EF00EE5D65 /* 114x114.png */,
+				A90BF169165B80EC00EE5D65 /* 57x57.png */,
 				A93CE1E716518DC00069257A /* libsqlite3.0.dylib */,
+				A93CE19B16518A910069257A /* MainStoryboard.storyboard */,
 				A93CE18916518A900069257A /* myWeights */,
 				A93CE1B816518A910069257A /* myWeightsTests */,
 				A93CE18216518A900069257A /* Frameworks */,
@@ -170,7 +193,6 @@
 				A93CE1C916518B670069257A /* Controllers */,
 				A93CE19216518A900069257A /* AppDelegate.h */,
 				A93CE19316518A900069257A /* AppDelegate.m */,
-				A93CE19B16518A910069257A /* MainStoryboard.storyboard */,
 				A93CE19E16518A910069257A /* FirstViewController.h */,
 				A93CE19F16518A910069257A /* FirstViewController.m */,
 				A93CE1A116518A910069257A /* first.png */,
@@ -224,6 +246,12 @@
 				A93CE1D816518C7E0069257A /* UnitSelectorViewController.m */,
 				A93CE1F21651907D0069257A /* GraphViewViewController.h */,
 				A93CE1F31651907D0069257A /* GraphViewViewController.m */,
+				A93CE1F6165191A40069257A /* HistoryViewController.h */,
+				A93CE1F7165191A50069257A /* HistoryViewController.m */,
+				A93CE1FA165191CE0069257A /* DetailViewController.h */,
+				A93CE1FB165191CE0069257A /* DetailViewController.m */,
+				A93CE1FE165192090069257A /* TabBarController.h */,
+				A93CE1FF165192090069257A /* TabBarController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -250,6 +278,8 @@
 				A93CE1EB16518FFC0069257A /* GraphStats.m */,
 				A93CE1EE1651903E0069257A /* GraphView.h */,
 				A93CE1EF1651903E0069257A /* GraphView.m */,
+				A93CE202165192680069257A /* HistoryCell.h */,
+				A93CE203165192680069257A /* HistoryCell.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -334,6 +364,8 @@
 				A93CE1A416518A910069257A /* first@2x.png in Resources */,
 				A93CE1A916518A910069257A /* second.png in Resources */,
 				A93CE1AB16518A910069257A /* second@2x.png in Resources */,
+				A90BF16A165B80EC00EE5D65 /* 57x57.png in Resources */,
+				A90BF16D165B80EF00EE5D65 /* 114x114.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,6 +413,10 @@
 				A93CE1EC16518FFC0069257A /* GraphStats.m in Sources */,
 				A93CE1F01651903E0069257A /* GraphView.m in Sources */,
 				A93CE1F41651907D0069257A /* GraphViewViewController.m in Sources */,
+				A93CE1F8165191A50069257A /* HistoryViewController.m in Sources */,
+				A93CE1FC165191CE0069257A /* DetailViewController.m in Sources */,
+				A93CE200165192090069257A /* TabBarController.m in Sources */,
+				A93CE204165192690069257A /* HistoryCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +433,10 @@
 				A93CE1ED16518FFC0069257A /* GraphStats.m in Sources */,
 				A93CE1F11651903E0069257A /* GraphView.m in Sources */,
 				A93CE1F51651907D0069257A /* GraphViewViewController.m in Sources */,
+				A93CE1F9165191A50069257A /* HistoryViewController.m in Sources */,
+				A93CE1FD165191CE0069257A /* DetailViewController.m in Sources */,
+				A93CE201165192090069257A /* TabBarController.m in Sources */,
+				A93CE205165192690069257A /* HistoryCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +465,7 @@
 				A93CE19C16518A910069257A /* en */,
 			);
 			name = MainStoryboard.storyboard;
+			path = myWeights;
 			sourceTree = "<group>";
 		};
 		A93CE1BB16518A910069257A /* InfoPlist.strings */ = {
@@ -563,6 +604,7 @@
 				A93CE1C516518A910069257A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A93CE1C616518A910069257A /* Build configuration list for PBXNativeTarget "myWeightsTests" */ = {
 			isa = XCConfigurationList;
@@ -571,6 +613,7 @@
 				A93CE1C816518A910069257A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
