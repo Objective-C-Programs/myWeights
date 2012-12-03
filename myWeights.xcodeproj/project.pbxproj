@@ -56,6 +56,10 @@
 		A93CE201165192090069257A /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE1FF165192090069257A /* TabBarController.m */; };
 		A93CE204165192690069257A /* HistoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE203165192680069257A /* HistoryCell.m */; };
 		A93CE205165192690069257A /* HistoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE203165192680069257A /* HistoryCell.m */; };
+		A9812930166BF9AA0024B411 /* graph.png in Resources */ = {isa = PBXBuildFile; fileRef = A981292E166BF9AA0024B411 /* graph.png */; };
+		A9812931166BF9AA0024B411 /* graph@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A981292F166BF9AA0024B411 /* graph@2x.png */; };
+		A9812935166BF9B40024B411 /* plus.png in Resources */ = {isa = PBXBuildFile; fileRef = A9812933166BF9B40024B411 /* plus.png */; };
+		A9812936166BF9B40024B411 /* plus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9812934166BF9B40024B411 /* plus@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +75,9 @@
 /* Begin PBXFileReference section */
 		A90BF169165B80EC00EE5D65 /* 57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 57x57.png; sourceTree = "<group>"; };
 		A90BF16C165B80EF00EE5D65 /* 114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 114x114.png; sourceTree = "<group>"; };
+		A935011D166CF07D00C2118F /* it */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = it; path = it.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		A935011E166CF07D00C2118F /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A935011F166CF07D00C2118F /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A93CE17F16518A900069257A /* myWeights.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myWeights.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A93CE18316518A900069257A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A93CE18516518A900069257A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -124,6 +131,10 @@
 		A93CE1FF165192090069257A /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
 		A93CE202165192680069257A /* HistoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryCell.h; sourceTree = "<group>"; };
 		A93CE203165192680069257A /* HistoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryCell.m; sourceTree = "<group>"; };
+		A981292E166BF9AA0024B411 /* graph.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = graph.png; sourceTree = "<group>"; };
+		A981292F166BF9AA0024B411 /* graph@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "graph@2x.png"; sourceTree = "<group>"; };
+		A9812933166BF9B40024B411 /* plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plus.png; sourceTree = "<group>"; };
+		A9812934166BF9B40024B411 /* plus@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plus@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +169,10 @@
 				A90BF169165B80EC00EE5D65 /* 57x57.png */,
 				A93CE1E716518DC00069257A /* libsqlite3.0.dylib */,
 				A93CE19B16518A910069257A /* MainStoryboard.storyboard */,
+				A981292E166BF9AA0024B411 /* graph.png */,
+				A981292F166BF9AA0024B411 /* graph@2x.png */,
+				A9812933166BF9B40024B411 /* plus.png */,
+				A9812934166BF9B40024B411 /* plus@2x.png */,
 				A93CE18916518A900069257A /* myWeights */,
 				A93CE1B816518A910069257A /* myWeightsTests */,
 				A93CE18216518A900069257A /* Frameworks */,
@@ -338,6 +353,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				it,
 			);
 			mainGroup = A93CE17416518A900069257A;
 			productRefGroup = A93CE18016518A900069257A /* Products */;
@@ -366,6 +382,10 @@
 				A93CE1AB16518A910069257A /* second@2x.png in Resources */,
 				A90BF16A165B80EC00EE5D65 /* 57x57.png in Resources */,
 				A90BF16D165B80EF00EE5D65 /* 114x114.png in Resources */,
+				A9812930166BF9AA0024B411 /* graph.png in Resources */,
+				A9812931166BF9AA0024B411 /* graph@2x.png in Resources */,
+				A9812935166BF9B40024B411 /* plus.png in Resources */,
+				A9812936166BF9B40024B411 /* plus@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,6 +475,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				A93CE18D16518A900069257A /* en */,
+				A935011E166CF07D00C2118F /* it */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -463,6 +484,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				A93CE19C16518A910069257A /* en */,
+				A935011D166CF07D00C2118F /* it */,
 			);
 			name = MainStoryboard.storyboard;
 			path = myWeights;
@@ -472,6 +494,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				A93CE1BC16518A910069257A /* en */,
+				A935011F166CF07D00C2118F /* it */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";

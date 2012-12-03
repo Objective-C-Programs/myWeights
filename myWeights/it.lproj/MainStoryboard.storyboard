@@ -24,7 +24,7 @@
             </objects>
             <point key="canvasLocation" x="132" y="180"/>
         </scene>
-        <!--Enter Weight View Controller - Enter Weight-->
+        <!--Enter Weight View Controller - Inserimento-->
         <scene sceneID="btn-9W-k5A">
             <objects>
                 <viewController id="7Hi-oN-sfX" customClass="EnterWeightViewController" sceneMemberID="viewController">
@@ -32,17 +32,26 @@
                         <rect key="frame" x="0.0" y="20" width="320" height="499"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Enter Today's Weight" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="z5c-uh-wy7">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Inserisci il tuo peso" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="z5c-uh-wy7">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="285" id="RPv-0H-72x"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Current Date and Time" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="5JR-WY-VH7">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="227" id="mLb-eh-iMr"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iIO-M1-2AH">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="225" id="gl2-6h-l14"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="numbersAndPunctuation" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
                                 <connections>
@@ -53,20 +62,19 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
                         <constraints>
-                            <constraint firstItem="z5c-uh-wy7" firstAttribute="leading" secondItem="iIO-M1-2AH" secondAttribute="leading" type="default" id="6gc-at-cAf"/>
-                            <constraint firstItem="z5c-uh-wy7" firstAttribute="centerX" secondItem="fQb-kC-dZ7" secondAttribute="centerX" type="default" id="A1C-7m-rtx"/>
-                            <constraint firstItem="iIO-M1-2AH" firstAttribute="trailing" secondItem="z5c-uh-wy7" secondAttribute="trailing" type="default" id="E3k-ow-Y7D"/>
+                            <constraint firstItem="iIO-M1-2AH" firstAttribute="top" secondItem="fQb-kC-dZ7" secondAttribute="top" constant="104" id="CBm-2V-2Tm"/>
                             <constraint firstItem="z5c-uh-wy7" firstAttribute="top" secondItem="fQb-kC-dZ7" secondAttribute="top" constant="20" symbolic="YES" type="default" id="HIq-BA-fM3"/>
                             <constraint firstItem="5JR-WY-VH7" firstAttribute="top" secondItem="z5c-uh-wy7" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="Kul-cw-CYz"/>
-                            <constraint firstItem="5JR-WY-VH7" firstAttribute="leading" secondItem="fQb-kC-dZ7" secondAttribute="leading" constant="73" id="NQB-xR-fu4"/>
-                            <constraint firstItem="iIO-M1-2AH" firstAttribute="top" secondItem="5JR-WY-VH7" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="Tka-87-eGH"/>
+                            <constraint firstAttribute="trailing" secondItem="z5c-uh-wy7" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="hBh-e4-Gtd"/>
+                            <constraint firstItem="5JR-WY-VH7" firstAttribute="centerX" secondItem="fQb-kC-dZ7" secondAttribute="centerX" type="default" id="rx8-cd-lQR"/>
+                            <constraint firstItem="iIO-M1-2AH" firstAttribute="trailing" secondItem="5JR-WY-VH7" secondAttribute="trailing" type="default" id="tND-MC-UhT"/>
                         </constraints>
                         <connections>
                             <outletCollection property="gestureRecognizers" destination="S4g-5h-JNp" appends="YES" id="o5j-fx-3pr"/>
                             <outletCollection property="gestureRecognizers" destination="6et-Zh-jil" appends="YES" id="Zzy-h6-HiQ"/>
                         </connections>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Enter Weight" image="plus.png" id="rLl-f2-H03"/>
+                    <tabBarItem key="tabBarItem" title="Inserimento" image="plus.png" id="rLl-f2-H03"/>
                     <connections>
                         <outlet property="dateLabel" destination="5JR-WY-VH7" id="zuS-3F-bwz"/>
                         <outlet property="weightTextField" destination="iIO-M1-2AH" id="Lzg-Tx-1Fs"/>
@@ -86,7 +94,7 @@
             </objects>
             <point key="canvasLocation" x="639" y="-503"/>
         </scene>
-        <!--Graph View Controller - Graph-->
+        <!--Graph View Controller - Grafico-->
         <scene sceneID="xRv-vg-daX">
             <objects>
                 <viewController id="wW8-aR-UTA" customClass="GraphViewController" sceneMemberID="viewController">
@@ -95,13 +103,13 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Graph" image="graph.png" id="sfh-0K-CxX"/>
+                    <tabBarItem key="tabBarItem" title="Grafico" image="graph.png" id="sfh-0K-CxX"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3FC-qX-sgg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="648" y="224"/>
         </scene>
-        <!--History View Controller - History-->
+        <!--History View Controller - Lista Pesi-->
         <scene sceneID="E0J-Og-CSU">
             <objects>
                 <tableViewController id="dSz-l7-t3u" customClass="HistoryViewController" sceneMemberID="viewController">
@@ -155,13 +163,13 @@
                             <outlet property="delegate" destination="dSz-l7-t3u" id="Wcw-oX-m6k"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="History" id="MGS-N5-8Qx"/>
+                    <navigationItem key="navigationItem" title="Lista Pesi" id="MGS-N5-8Qx"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="t9u-BC-fyj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1192" y="937"/>
         </scene>
-        <!--Detail View Controller - Weight Entry-->
+        <!--Detail View Controller - Dettaglio-->
         <scene sceneID="ebO-pw-Fc9">
             <objects>
                 <tableViewController id="ahw-FG-O0v" customClass="DetailViewController" sceneMemberID="viewController">
@@ -170,7 +178,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <sections>
-                            <tableViewSection headerTitle="Weight Entry" id="pf5-NV-wA0">
+                            <tableViewSection headerTitle="Info Peso" id="pf5-NV-wA0">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="Pvb-7I-PZO">
                                         <rect key="frame" x="0.0" y="46" width="320" height="45"/>
@@ -179,7 +187,7 @@
                                             <rect key="frame" x="10" y="1" width="300" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Weight" textAlignment="right" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="nwu-EQ-YMb">
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Peso" textAlignment="right" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="nwu-EQ-YMb">
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="121" id="AD3-p6-VHG"/>
                                                     </constraints>
@@ -213,7 +221,7 @@
                                             <rect key="frame" x="10" y="0.0" width="300" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Date" textAlignment="right" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="A17-5k-gnN">
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Data" textAlignment="right" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="A17-5k-gnN">
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="121" id="jwl-17-tCL"/>
                                                     </constraints>
@@ -242,7 +250,7 @@
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
-                            <tableViewSection headerTitle="Statistics" id="fid-0K-xgV">
+                            <tableViewSection headerTitle="Statistiche" id="fid-0K-xgV">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="qAQ-IA-IaP">
                                         <rect key="frame" x="0.0" y="182" width="320" height="45"/>
@@ -251,7 +259,7 @@
                                             <rect key="frame" x="10" y="1" width="300" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Monthly Average" textAlignment="right" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="H7K-dh-IzS">
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Media Mensile" textAlignment="right" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="H7K-dh-IzS">
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
@@ -259,7 +267,7 @@
                                                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fyM-el-Qd9">
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="31" id="9z7-99-0s6"/>
-                                                        <constraint firstAttribute="width" constant="131" id="yJa-nF-DWJ"/>
+                                                        <constraint firstAttribute="width" constant="118" id="cGP-80-aOl"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits"/>
@@ -269,10 +277,11 @@
                                         </view>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
-                                            <constraint firstItem="fyM-el-Qd9" firstAttribute="leading" secondItem="H7K-dh-IzS" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="I0e-3q-Oc6"/>
-                                            <constraint firstItem="fyM-el-Qd9" firstAttribute="centerY" secondItem="qAQ-IA-IaP" secondAttribute="centerY" type="default" id="Jov-2T-csg"/>
+                                            <constraint firstAttribute="trailing" secondItem="fyM-el-Qd9" secondAttribute="trailing" constant="30" id="JKH-xb-hfy"/>
                                             <constraint firstItem="H7K-dh-IzS" firstAttribute="leading" secondItem="qAQ-IA-IaP" secondAttribute="leading" constant="30" id="MYf-0c-mI2"/>
-                                            <constraint firstItem="H7K-dh-IzS" firstAttribute="top" secondItem="qAQ-IA-IaP" secondAttribute="top" constant="13" id="cVh-KQ-LfL"/>
+                                            <constraint firstItem="H7K-dh-IzS" firstAttribute="centerY" secondItem="fyM-el-Qd9" secondAttribute="centerY" type="default" id="TZK-Rl-3VO"/>
+                                            <constraint firstItem="H7K-dh-IzS" firstAttribute="baseline" secondItem="fyM-el-Qd9" secondAttribute="baseline" type="default" id="cib-h5-gLt"/>
+                                            <constraint firstItem="fyM-el-Qd9" firstAttribute="top" secondItem="qAQ-IA-IaP" secondAttribute="top" constant="8" id="wiR-MK-sad"/>
                                         </constraints>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="D2I-m1-5Ic">
@@ -282,7 +291,7 @@
                                             <rect key="frame" x="10" y="0.0" width="300" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Loss from Max" textAlignment="right" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="0fg-eC-Beu">
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Peso Perso" textAlignment="right" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="0fg-eC-Beu">
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="121" id="nZg-WX-DrI"/>
                                                     </constraints>
@@ -292,7 +301,7 @@
                                                 </label>
                                                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LBQ-mk-D4u">
                                                     <constraints>
-                                                        <constraint firstAttribute="width" constant="131" id="gfN-b3-Tor"/>
+                                                        <constraint firstAttribute="width" constant="118" id="ZQT-IK-oPg"/>
                                                         <constraint firstAttribute="height" constant="31" id="ugu-8s-MNj"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -303,10 +312,11 @@
                                         </view>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
-                                            <constraint firstItem="0fg-eC-Beu" firstAttribute="leading" secondItem="D2I-m1-5Ic" secondAttribute="leading" constant="30" id="2Id-pN-eom"/>
-                                            <constraint firstItem="LBQ-mk-D4u" firstAttribute="top" secondItem="D2I-m1-5Ic" secondAttribute="top" constant="6" id="4eu-UW-JhD"/>
-                                            <constraint firstItem="LBQ-mk-D4u" firstAttribute="leading" secondItem="0fg-eC-Beu" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="Hnm-Re-x0T"/>
-                                            <constraint firstItem="0fg-eC-Beu" firstAttribute="top" secondItem="D2I-m1-5Ic" secondAttribute="top" constant="10" id="v10-o1-5mD"/>
+                                            <constraint firstItem="LBQ-mk-D4u" firstAttribute="top" secondItem="D2I-m1-5Ic" secondAttribute="top" constant="5" id="2p5-3V-9Bv"/>
+                                            <constraint firstAttribute="trailing" secondItem="LBQ-mk-D4u" secondAttribute="trailing" constant="30" id="JMc-he-Kjt"/>
+                                            <constraint firstItem="0fg-eC-Beu" firstAttribute="baseline" secondItem="LBQ-mk-D4u" secondAttribute="baseline" type="default" id="QnG-n3-Qi3"/>
+                                            <constraint firstItem="0fg-eC-Beu" firstAttribute="leading" secondItem="D2I-m1-5Ic" secondAttribute="leading" constant="10" id="cwb-Jh-Ry8"/>
+                                            <constraint firstItem="0fg-eC-Beu" firstAttribute="centerY" secondItem="LBQ-mk-D4u" secondAttribute="centerY" type="default" id="pWw-4k-Dj6"/>
                                         </constraints>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="SFY-dI-7RE">
@@ -316,18 +326,15 @@
                                             <rect key="frame" x="10" y="0.0" width="300" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Gain from Min" textAlignment="right" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="xCE-hl-NTX">
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" constant="121" id="Ey2-Xh-8KY"/>
-                                                    </constraints>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Peso guadagnato" textAlignment="right" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="xCE-hl-NTX">
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gkE-Bh-9yA">
                                                     <constraints>
+                                                        <constraint firstAttribute="width" constant="118" id="BtD-pJ-uLQ"/>
                                                         <constraint firstAttribute="height" constant="31" id="Q0n-pb-OzQ"/>
-                                                        <constraint firstAttribute="width" constant="131" id="lks-sl-gg9"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits"/>
@@ -337,8 +344,8 @@
                                         </view>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="gkE-Bh-9yA" secondAttribute="trailing" constant="30" id="OAw-nO-dn1"/>
                                             <constraint firstItem="xCE-hl-NTX" firstAttribute="leading" secondItem="SFY-dI-7RE" secondAttribute="leading" constant="30" id="PYq-4M-fae"/>
-                                            <constraint firstItem="gkE-Bh-9yA" firstAttribute="leading" secondItem="xCE-hl-NTX" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="jch-ph-iJG"/>
                                             <constraint firstItem="xCE-hl-NTX" firstAttribute="centerY" secondItem="SFY-dI-7RE" secondAttribute="centerY" type="default" id="sOR-AA-bmk"/>
                                             <constraint firstItem="gkE-Bh-9yA" firstAttribute="top" secondItem="SFY-dI-7RE" secondAttribute="top" constant="6" id="tSe-Yg-HfA"/>
                                         </constraints>
@@ -351,7 +358,7 @@
                             <outlet property="delegate" destination="ahw-FG-O0v" id="zkb-kH-0lW"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Weight Entry" id="W7U-Qn-pXl"/>
+                    <navigationItem key="navigationItem" title="Dettaglio" id="W7U-Qn-pXl"/>
                     <connections>
                         <outlet property="averageTextField" destination="fyM-el-Qd9" id="Mta-Jh-5jR"/>
                         <outlet property="dateTextField" destination="GI4-0g-tFg" id="VPZ-4H-Cse"/>
