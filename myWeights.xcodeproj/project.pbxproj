@@ -60,6 +60,7 @@
 		A9812931166BF9AA0024B411 /* graph@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A981292F166BF9AA0024B411 /* graph@2x.png */; };
 		A9812935166BF9B40024B411 /* plus.png in Resources */ = {isa = PBXBuildFile; fileRef = A9812933166BF9B40024B411 /* plus.png */; };
 		A9812936166BF9B40024B411 /* plus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9812934166BF9B40024B411 /* plus@2x.png */; };
+		A9BBC34A166E92FE00945B03 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9BBC349166E92FE00945B03 /* iAd.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,7 @@
 /* Begin PBXFileReference section */
 		A90BF169165B80EC00EE5D65 /* 57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 57x57.png; sourceTree = "<group>"; };
 		A90BF16C165B80EF00EE5D65 /* 114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 114x114.png; sourceTree = "<group>"; };
+		A925361C166F8FF100B2F399 /* myWeights copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "myWeights copy-Info.plist"; path = "/Users/Marco/Documents/Xcode/myWeights/myWeights copy-Info.plist"; sourceTree = "<absolute>"; };
 		A935011D166CF07D00C2118F /* it */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = it; path = it.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		A935011E166CF07D00C2118F /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A935011F166CF07D00C2118F /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -135,6 +137,7 @@
 		A981292F166BF9AA0024B411 /* graph@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "graph@2x.png"; sourceTree = "<group>"; };
 		A9812933166BF9B40024B411 /* plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plus.png; sourceTree = "<group>"; };
 		A9812934166BF9B40024B411 /* plus@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plus@2x.png"; sourceTree = "<group>"; };
+		A9BBC349166E92FE00945B03 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +145,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9BBC34A166E92FE00945B03 /* iAd.framework in Frameworks */,
 				A93CE1E816518DC00069257A /* libsqlite3.0.dylib in Frameworks */,
 				A93CE18416518A900069257A /* UIKit.framework in Frameworks */,
 				A93CE18616518A900069257A /* Foundation.framework in Frameworks */,
@@ -162,9 +166,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A925358E166F8F5400B2F399 /* Resources-iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Resources-iPad";
+			sourceTree = "<group>";
+		};
 		A93CE17416518A900069257A = {
 			isa = PBXGroup;
 			children = (
+				A925358E166F8F5400B2F399 /* Resources-iPad */,
 				A90BF16C165B80EF00EE5D65 /* 114x114.png */,
 				A90BF169165B80EC00EE5D65 /* 57x57.png */,
 				A93CE1E716518DC00069257A /* libsqlite3.0.dylib */,
@@ -177,6 +189,7 @@
 				A93CE1B816518A910069257A /* myWeightsTests */,
 				A93CE18216518A900069257A /* Frameworks */,
 				A93CE18016518A900069257A /* Products */,
+				A925361C166F8FF100B2F399 /* myWeights copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -192,6 +205,7 @@
 		A93CE18216518A900069257A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A9BBC349166E92FE00945B03 /* iAd.framework */,
 				A93CE18316518A900069257A /* UIKit.framework */,
 				A93CE18516518A900069257A /* Foundation.framework */,
 				A93CE18716518A900069257A /* CoreGraphics.framework */,
@@ -559,6 +573,7 @@
 				GCC_PREFIX_HEADER = "myWeights/myWeights-Prefix.pch";
 				INFOPLIST_FILE = "myWeights/myWeights-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -570,6 +585,7 @@
 				GCC_PREFIX_HEADER = "myWeights/myWeights-Prefix.pch";
 				INFOPLIST_FILE = "myWeights/myWeights-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

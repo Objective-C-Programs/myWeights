@@ -33,9 +33,6 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Inserisci il tuo peso" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="z5c-uh-wy7">
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="285" id="RPv-0H-72x"/>
-                                </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -58,6 +55,16 @@
                                     <action selector="saveWeight:" destination="7Hi-oN-sfX" eventType="editingDidEndOnExit" id="4vE-IX-mn0"/>
                                 </connections>
                             </textField>
+                            <adBannerView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" translatesAutoresizingMaskIntoConstraints="NO" id="gIy-FV-Wou">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Rm4-jq-ite"/>
+                                    <constraint firstAttribute="width" constant="320" id="hpn-kp-ve0"/>
+                                </constraints>
+                                <requiredContentSizeIdentifiers>
+                                    <string>ADBannerContentSizeLandscape</string>
+                                    <string>ADBannerContentSizePortrait</string>
+                                </requiredContentSizeIdentifiers>
+                            </adBannerView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
@@ -65,7 +72,10 @@
                             <constraint firstItem="iIO-M1-2AH" firstAttribute="top" secondItem="fQb-kC-dZ7" secondAttribute="top" constant="104" id="CBm-2V-2Tm"/>
                             <constraint firstItem="z5c-uh-wy7" firstAttribute="top" secondItem="fQb-kC-dZ7" secondAttribute="top" constant="20" symbolic="YES" type="default" id="HIq-BA-fM3"/>
                             <constraint firstItem="5JR-WY-VH7" firstAttribute="top" secondItem="z5c-uh-wy7" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="Kul-cw-CYz"/>
+                            <constraint firstItem="gIy-FV-Wou" firstAttribute="leading" secondItem="fQb-kC-dZ7" secondAttribute="leading" constant="-3" id="bKX-Zc-Oz8"/>
+                            <constraint firstItem="gIy-FV-Wou" firstAttribute="centerX" secondItem="z5c-uh-wy7" secondAttribute="centerX" type="default" id="d79-Kp-oQR"/>
                             <constraint firstAttribute="trailing" secondItem="z5c-uh-wy7" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="hBh-e4-Gtd"/>
+                            <constraint firstItem="gIy-FV-Wou" firstAttribute="bottom" secondItem="fQb-kC-dZ7" secondAttribute="bottom" type="default" id="hH6-OX-noJ"/>
                             <constraint firstItem="5JR-WY-VH7" firstAttribute="centerX" secondItem="fQb-kC-dZ7" secondAttribute="centerX" type="default" id="rx8-cd-lQR"/>
                             <constraint firstItem="iIO-M1-2AH" firstAttribute="trailing" secondItem="5JR-WY-VH7" secondAttribute="trailing" type="default" id="tND-MC-UhT"/>
                         </constraints>
@@ -117,6 +127,14 @@
                         <rect key="frame" x="0.0" y="64" width="320" height="455"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <adBannerView key="tableFooterView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="Bfz-II-M0M">
+                            <rect key="frame" x="0.0" y="72" width="320" height="44"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <requiredContentSizeIdentifiers>
+                                <string>ADBannerContentSizeLandscape</string>
+                                <string>ADBannerContentSizePortrait</string>
+                            </requiredContentSizeIdentifiers>
+                        </adBannerView>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="History Cell" id="RsC-sY-ypV" customClass="HistoryCell">
                                 <rect key="frame" x="0.0" y="22" width="320" height="44"/>
@@ -177,6 +195,14 @@
                         <rect key="frame" x="0.0" y="64" width="320" height="455"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <adBannerView key="tableFooterView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="b0i-VB-f6H">
+                            <rect key="frame" x="0.0" y="332" width="320" height="44"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <requiredContentSizeIdentifiers>
+                                <string>ADBannerContentSizeLandscape</string>
+                                <string>ADBannerContentSizePortrait</string>
+                            </requiredContentSizeIdentifiers>
+                        </adBannerView>
                         <sections>
                             <tableViewSection headerTitle="Info Peso" id="pf5-NV-wA0">
                                 <cells>
