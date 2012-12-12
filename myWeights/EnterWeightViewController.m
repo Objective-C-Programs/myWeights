@@ -9,6 +9,7 @@
 #import "EnterWeightViewController.h"
 #import "WeightHistory.h"
 #import "Database.h"
+#import "AppDelegate.h"
 
 static NSString * const UNIT_SELECTOR_SEGUE = @"Unit Selector Segue";
 static BOOL const WITH_DB = YES;
@@ -146,6 +147,15 @@ static NSString * const PLIST_NAME = @"Pesi";
 #pragma mark - Action Methods
 
 - (IBAction)saveWeight:(id)sender {
+    
+    /*
+        
+        NSString *stringaMail = [NSString stringWithFormat:@"mailto:?to=%@&subject=%@&body=%@", [@"velluto93@gmail.com" stringByAddingPercentEscapesUsingEncoding:NSASCIIStringEncoding], [@"c" stringByAddingPercentEscapesUsingEncoding:NSASCIIStringEncoding], [@"ddd"  stringByAddingPercentEscapesUsingEncoding:NSASCIIStringEncoding]];
+        
+        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:stringaMail]];
+    */
+    
+
     
     // Save the weight to the model.
     NSNumber* weight = [self.numberFormatter

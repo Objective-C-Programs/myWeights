@@ -55,11 +55,13 @@ static NSNumberFormatter* formatter;
     NSString* weightString =
     [formatter stringFromNumber:[NSNumber numberWithFloat:weight]];
     
+#warning riabilito metodo
     NSString* unitString = [WeightEntry stringForUnit:unit];
     
+#warning rimetto apposto qui
     return [NSString stringWithFormat:@"%@ %@",
             weightString,
-            unitString];
+            @"kg"];
 }
 
 + (NSString*)stringForWeightInLbs:(CGFloat)weight inUnit:(WeightUnit)unit {

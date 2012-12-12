@@ -35,8 +35,10 @@
 - (void)configureWithWeightEntry:(WeightEntry*)entry
                     defaultUnits:(WeightUnit)unit {
     
+    //self.weightLabel.text = [entry stringForWeightInUnit:unit];
+#warning modificare qui.
     self.weightLabel.text = [entry stringForWeightInUnit:unit];
-    
+
     
     NSString *str = [NSDateFormatter localizedStringFromDate:entry.date
                                                    dateStyle:NSDateFormatterShortStyle
