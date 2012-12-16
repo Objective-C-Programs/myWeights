@@ -46,7 +46,7 @@ static NSNumberFormatter* formatter;
                         format:@"The value %d is not a valid WeightUnit", unit];
     }
     
-    // This will never be executed.
+    // This//// will never be executed.
     return @"";
 }
 
@@ -56,7 +56,7 @@ static NSNumberFormatter* formatter;
     [formatter stringFromNumber:[NSNumber numberWithFloat:weight]];
     
 #warning riabilito metodo
-    NSString* unitString = [WeightEntry stringForUnit:unit];
+    //NSString* unitString = [WeightEntry stringForUnit:unit];
     
 #warning rimetto apposto qui
     return [NSString stringWithFormat:@"%@ %@",
