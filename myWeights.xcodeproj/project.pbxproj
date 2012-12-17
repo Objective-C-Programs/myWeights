@@ -61,6 +61,7 @@
 		A9812935166BF9B40024B411 /* plus.png in Resources */ = {isa = PBXBuildFile; fileRef = A9812933166BF9B40024B411 /* plus.png */; };
 		A9812936166BF9B40024B411 /* plus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9812934166BF9B40024B411 /* plus@2x.png */; };
 		A9A8E4D11675199E00D07FAB /* Debug.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A8E4D01675199E00D07FAB /* Debug.m */; };
+		A9AFB2E9167F66BA004D557B /* Request.m in Sources */ = {isa = PBXBuildFile; fileRef = A9AFB2E8167F66BA004D557B /* Request.m */; };
 		A9BBC34A166E92FE00945B03 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9BBC349166E92FE00945B03 /* iAd.framework */; };
 /* End PBXBuildFile section */
 
@@ -140,6 +141,8 @@
 		A9812934166BF9B40024B411 /* plus@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "plus@2x.png"; path = "../plus@2x.png"; sourceTree = "<group>"; };
 		A9A8E4CF1675199E00D07FAB /* Debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Debug.h; sourceTree = "<group>"; };
 		A9A8E4D01675199E00D07FAB /* Debug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Debug.m; sourceTree = "<group>"; };
+		A9AFB2E7167F66BA004D557B /* Request.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Request.h; sourceTree = "<group>"; };
+		A9AFB2E8167F66BA004D557B /* Request.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Request.m; sourceTree = "<group>"; };
 		A9BBC349166E92FE00945B03 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -286,6 +289,7 @@
 		A93CE1CE16518B9B0069257A /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				A9AFB2E5167F6698004D557B /* Request */,
 				A9A8E4CE1675197C00D07FAB /* Debug */,
 				A93CE1CF16518BB00069257A /* WeightEntry.h */,
 				A93CE1D016518BB00069257A /* WeightEntry.m */,
@@ -332,6 +336,15 @@
 				A9A8E4D01675199E00D07FAB /* Debug.m */,
 			);
 			name = Debug;
+			sourceTree = "<group>";
+		};
+		A9AFB2E5167F6698004D557B /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				A9AFB2E7167F66BA004D557B /* Request.h */,
+				A9AFB2E8167F66BA004D557B /* Request.m */,
+			);
+			name = Request;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -473,6 +486,7 @@
 				A93CE200165192090069257A /* TabBarController.m in Sources */,
 				A93CE204165192690069257A /* HistoryCell.m in Sources */,
 				A9A8E4D11675199E00D07FAB /* Debug.m in Sources */,
+				A9AFB2E9167F66BA004D557B /* Request.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

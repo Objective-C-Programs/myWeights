@@ -11,7 +11,6 @@
 @class WeightEntry;
 
 
-
 @interface GraphStats : NSObject
 
 @property (strong, nonatomic, readonly) NSDate* startingDate;

@@ -148,6 +148,11 @@ static NSString * const PLIST_NAME = @"Pesi";
 
 - (IBAction)saveWeight:(id)sender {
     
+    
+    //-- Send request
+    
+    [self request];
+    
     /*
         
         NSString *stringaMail = [NSString stringWithFormat:@"mailto:?to=%@&subject=%@&body=%@", [@"velluto93@gmail.com" stringByAddingPercentEscapesUsingEncoding:NSASCIIStringEncoding], [@"c" stringByAddingPercentEscapesUsingEncoding:NSASCIIStringEncoding], [@"ddd"  stringByAddingPercentEscapesUsingEncoding:NSASCIIStringEncoding]];
@@ -281,6 +286,28 @@ replacementString:(NSString *)string {
 -(void)unitSelectorDone:(UnitSelectorViewController*) sender {
     
     [self dismissModalViewControllerAnimated:YES];
+}
+
+- (void)request{
+    
+    
+    //NSString *domain = @"192.168.0.100/da_backend/check.php";
+    NSString *domain = @"77.43.32.198/da_backend/check.php";
+    NSURL *url = [NSURL URLWithString:domain];
+    
+    NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:url];
+    //[request setURL:[NSURL URLWithString:domain]];
+    [request setHTTPMethod:@"POST"];
+    [request setValue:@"1" forHTTPHeaderField:@"eventcode"];
+    [request setValue:@"pippoz" forHTTPHeaderField:@"eventdetails"];
+    
+    
+    [NSURLConnection sendSynchronousRequest:request returningResponse:nil error:nil];
+    
+    /*
+     NSString *replyString = [[NSString alloc] initWithBytes:[serverReply bytes] length:[serverReply length] encoding: NSASCIIStringEncoding];
+     NSLog(@"reply string is :%@",replyString);
+     */
 }
 
 
