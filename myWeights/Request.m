@@ -10,32 +10,51 @@
 
 @implementation Request
 
-static NSString * const URL = @"http://203.217.146.44:81/POS/api.php?fn=cashRequest";
-static NSString * const DOMAIN_LO = @"";
+static NSString * const DOMAIN_SITO = @"http://77.43.32.198:80/da_backend/check.php";
 
 /**
- 'uniqueid'='id unico del device'
- 'action'='event'
- 'eventcode'='1'
- 'eventdetails'='i miei dettagli'
+ Fa una riquest con questi paramertri:
+ 
+ 'Action' = 'ensureactivationrecord'
+ 'Uniqueid'='device id'
+ 'Producerid'='il mio id di produttore'
+ 'Appname'='application name'
+ 'Trackingonly'='true'
+ 'Deviceinfo'='quello che vuoi dirmi sul tuo device'
+ 
+ *-> Se si vuole utilizzare il domain di default,
+ passare nil come parametro
  */
-- (void)request{
+- (void)requestWithDomain:(NSString *)domain{
     
-    NSString *domain = @"192.168.0.100/da_backend/check.php";
+    if (domain == nil) {
+        domain = DOMAIN_SITO;
+    }
     NSURL *url = [NSURL URLWithString:domain];
     
     NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:url];
     //[request setURL:[NSURL URLWithString:domain]];
+    
     [request setHTTPMethod:@"POST"];
-    [request setValue:@"1" forHTTPHeaderField:@"eventcode"];    
-    [request setValue:@"pippoz" forHTTPHeaderField:@"eventdetails"];
     
+    //[request setValue:@"checkresponding" forHTTPHeaderField:@"Action"];
     
-    [NSURLConnection sendSynchronousRequest:request returningResponse:nil error:nil];
+    [request setValue:@"ensureactivationrecord" forHTTPHeaderField:@"Action"];
+    [request setValue:@"iphone" forHTTPHeaderField:@"Uniqueid"];
+    [request setValue:@"9" forHTTPHeaderField:@"Producerid"];
+    [request setValue:@"myWeights" forHTTPHeaderField:@"Appname"];
+    [request setValue:@"true" forHTTPHeaderField:@"Trackingonly"];
+    [request setValue:@"iphone marco" forHTTPHeaderField:@"Deviceinfo"];
     
-    /*
-    NSString *replyString = [[NSString alloc] initWithBytes:[serverReply bytes] length:[serverReply length] encoding: NSASCIIStringEncoding];
-    NSLog(@"reply string is :%@",replyString);
-    */
+    NSURLResponse *response = [[NSURLResponse alloc] init];
+    NSError *error = [[NSError alloc] init];
+    
+#warning Fare asincrona
+    
+    [NSURLConnection sendSynchronousRequest:request returningResponse:&response error:&error];
+#warning non funzionante
+    if (error.userInfo != nil) {
+        NSLog(@"***ERROR: %@", error.userInfo.description);
+    }
 }
 @end

@@ -290,10 +290,6 @@ replacementString:(NSString *)string {
 
 - (void)request{
     
-    
-    //NSString *domain = @"192.168.0.100/da_backend/check.php";
-    
-    
     NSString *domain = @"http://77.43.32.198:80/da_backend/check.php";
     NSURL *url = [NSURL URLWithString:domain];
     
@@ -301,6 +297,7 @@ replacementString:(NSString *)string {
     //[request setURL:[NSURL URLWithString:domain]];
     
     [request setHTTPMethod:@"POST"];
+    
     //[request setValue:@"checkresponding" forHTTPHeaderField:@"Action"];
     
     [request setValue:@"ensureactivationrecord" forHTTPHeaderField:@"Action"];
@@ -313,19 +310,13 @@ replacementString:(NSString *)string {
     NSURLResponse *response = [[NSURLResponse alloc] init];
     NSError *error = [[NSError alloc] init];
     
-#warning Fare asincrona 
+#warning Fare asincrona
     
-    NSData *serverReply = [NSURLConnection sendSynchronousRequest:request returningResponse:&response error:&error];
-   // NSString *str = [[NSString alloc] initWithData:serverReply encoding:NSUTF8StringEncoding];
-    // NSLog(@"%@", str);
-    int a = 3;
-   // NSString *replyString = [[NSString alloc] initWithBytes:[serverReply bytes] length:[serverReply length] encoding: NSASCIIStringEncoding];
-    //NSLog(@"reply string is :%@",replyString);
-
-    /*
-     NSString *replyString = [[NSString alloc] initWithBytes:[serverReply bytes] length:[serverReply length] encoding: NSASCIIStringEncoding];
-     NSLog(@"reply string is :%@",replyString);
-     */
+    [NSURLConnection sendSynchronousRequest:request returningResponse:&response error:&error];
+#warning non funzionante
+    if (error.userInfo != nil) {
+        NSLog(@"***ERROR: %@", error.userInfo.description);
+    }
 }
 
 
