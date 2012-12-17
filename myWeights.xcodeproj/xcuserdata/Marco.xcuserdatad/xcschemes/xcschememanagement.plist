@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>myWeights copy 2.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>myWeights copy 4.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>myWeights copy.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>myWeights.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>myWeights1.1.1 copy.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>A9253560166F8F5400B2F399</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A9253590166F8F8600B2F399</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A92535BF166F8FBB00B2F399</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A92535EE166F8FF100B2F399</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A93CE17E16518A900069257A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A93CE1B016518A910069257A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
