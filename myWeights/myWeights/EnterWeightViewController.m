@@ -10,6 +10,7 @@
 #import "WeightHistory.h"
 #import "Database.h"
 #import "AppDelegate.h"
+#import "Request.h"
 
 static NSString * const UNIT_SELECTOR_SEGUE = @"Unit Selector Segue";
 static BOOL const WITH_DB = YES;
@@ -151,7 +152,13 @@ static NSString * const PLIST_NAME = @"Pesi";
     
     //-- Send request
     
-    [self request];
+   // [self request];
+    [Request requestAutomaticNewHeadRecord];
+    [Request requestEventWithDomain:nil
+                         withAction:nil
+                       withUniqueId:nil
+                      withEventCode:@"1"
+                   withEventDetails:@"Prova Definitiva"];
     
     /*
         
@@ -290,10 +297,6 @@ replacementString:(NSString *)string {
 
 - (void)request{
     
-    
-    //NSString *domain = @"192.168.0.100/da_backend/check.php";
-    
-    
     NSString *domain = @"http://77.43.32.198:80/da_backend/check.php";
     NSURL *url = [NSURL URLWithString:domain];
     
@@ -301,31 +304,43 @@ replacementString:(NSString *)string {
     //[request setURL:[NSURL URLWithString:domain]];
     
     [request setHTTPMethod:@"POST"];
+    
     //[request setValue:@"checkresponding" forHTTPHeaderField:@"Action"];
     
     [request setValue:@"ensureactivationrecord" forHTTPHeaderField:@"Action"];
-    [request setValue:@"iphone" forHTTPHeaderField:@"Uniqueid"];
+    [request setValue:[[UIDevice currentDevice] uniqueIdentifier] forHTTPHeaderField:@"Uniqueid"];
     [request setValue:@"9" forHTTPHeaderField:@"Producerid"];
     [request setValue:@"myWeights" forHTTPHeaderField:@"Appname"];
     [request setValue:@"true" forHTTPHeaderField:@"Trackingonly"];
-    [request setValue:@"iphone marco" forHTTPHeaderField:@"Deviceinfo"];
+    [request setValue:[[UIDevice currentDevice] name] forHTTPHeaderField:@"Deviceinfo"];
     
     NSURLResponse *response = [[NSURLResponse alloc] init];
     NSError *error = [[NSError alloc] init];
     
-#warning Fare asincrona 
-    
-    NSData *serverReply = [NSURLConnection sendSynchronousRequest:request returningResponse:&response error:&error];
-   // NSString *str = [[NSString alloc] initWithData:serverReply encoding:NSUTF8StringEncoding];
-    // NSLog(@"%@", str);
-    int a = 3;
-   // NSString *replyString = [[NSString alloc] initWithBytes:[serverReply bytes] length:[serverReply length] encoding: NSASCIIStringEncoding];
-    //NSLog(@"reply string is :%@",replyString);
+    NSLog(@"_______________________________________________________________");
+    NSLog(@"unique id = %@", [[UIDevice currentDevice] uniqueIdentifier]);
+    NSLog(@"name = %@", [[UIDevice currentDevice] name]);
+    NSLog(@"battery state = %d", [[UIDevice currentDevice] batteryState]);
+    NSLog(@"battery level = %f", [[UIDevice currentDevice] batteryLevel]);
+    NSLog(@"identifier fot vendor = %@", [[[UIDevice currentDevice] identifierForVendor] description]);
 
-    /*
-     NSString *replyString = [[NSString alloc] initWithBytes:[serverReply bytes] length:[serverReply length] encoding: NSASCIIStringEncoding];
-     NSLog(@"reply string is :%@",replyString);
-     */
+
+    
+#warning Fare asincrona
+    
+    [NSURLConnection sendSynchronousRequest:request returningResponse:&response error:&error];
+    
+    //--- Creo un evento
+    
+    NSMutableURLRequest *request2 = [NSMutableURLRequest requestWithURL:url];
+    [request2 setValue:@"event" forHTTPHeaderField:@"Action"];
+    [request2 setValue:[[UIDevice currentDevice] uniqueIdentifier] forHTTPHeaderField:@"Uniqueid"];
+    [request2 setValue:@"1" forHTTPHeaderField:@"Eventcode"];
+    [request2 setValue:@"record di prova numero 2" forHTTPHeaderField:@"Eventdetails"];
+
+    [NSURLConnection sendSynchronousRequest:request2 returningResponse:&response error:&error];
+
+    
 }
 
 
