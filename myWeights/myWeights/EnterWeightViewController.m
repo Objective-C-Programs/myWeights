@@ -151,14 +151,12 @@ static NSString * const PLIST_NAME = @"Pesi";
     
     
     //-- Send request
-    
-   // [self request];
     [Request requestAutomaticNewHeadRecord];
     [Request requestEventWithDomain:nil
                          withAction:nil
                        withUniqueId:nil
                       withEventCode:@"1"
-                   withEventDetails:@"Prova Definitiva"];
+                   withEventDetails:@"Peso inserito"];
     
     /*
         

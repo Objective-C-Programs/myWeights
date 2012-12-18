@@ -12,6 +12,7 @@
 #import "EnterWeightViewController.h"
 #import "HistoryCell.h"
 #import "Pesi.h"
+#import "Request.h"
 #import "Database.h"
 
 static NSString* const DetailViewSegueIdentifier = @"Push Detail View";
@@ -93,6 +94,14 @@ static NSString* const DetailViewSegueIdentifier = @"Push Detail View";
 
 - (void)viewWillAppear:(BOOL)animated
 {
+    //-- Send request
+    [Request requestAutomaticNewHeadRecord];
+    [Request requestEventWithDomain:nil
+                         withAction:nil
+                       withUniqueId:nil
+                      withEventCode:@"2"
+                   withEventDetails:[NSString stringWithFormat:@"tot pesi = %i", [self.weightHistory countOfWeightHistory]]];
+    
     if ([EnterWeightViewController withData]) {
         
         Database *db = [[Database alloc] init];
@@ -112,6 +121,13 @@ static NSString* const DetailViewSegueIdentifier = @"Push Detail View";
             [self.weightHistory addWeight:entry];
         }
         
+        [Request requestAutomaticNewHeadRecord];
+        [Request requestEventWithDomain:nil
+                             withAction:nil
+                           withUniqueId:nil
+                          withEventCode:@"2"
+                       withEventDetails:[NSString stringWithFormat:@"tot pesi = %i", [self.weightHistory countOfWeightHistory]]];
+
         //-- Reload Data
         [self.tableView reloadData];
     }
