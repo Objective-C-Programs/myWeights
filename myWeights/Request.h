@@ -23,5 +23,44 @@
  *-> Se si vuole utilizzare il domain di default, 
     passare nil come parametro
  */
-- (void)requestWithDomain:(NSString *)domain;
++ (void)requestWithDomain:(NSString *)domain;
+
+/**
+ Fa una request con i parametri indicati.
+ *-> se si vuole utilizzare il domain di default
+ passare nil.
+ *-> se si vuole utilizzare l'action di default
+ passare nil.
+ */
++ (void)requestNewHeadRecordWithDomain:(NSString *)domain
+                            withAction:(NSString *)action
+                          withUniqueid:(NSString *)uniqueid
+                        withProducerid:(NSString *)producerid
+                           withAppName:(NSString *)appName
+                      withTrackingOnly:(NSString *)trakingOnly
+                        withDeviceInfo:(NSString *)deviceInfo;
+
+/**
+ Invia una request di creazione nuovo evento.
+ 
+ *-> se si vuole utilizzare il domain di default
+ passare nil.
+ *-> se si vuole utilizzare l'action di default
+ passare nil.
+ *-> se si vuole utilizzare l'unique id di default
+ passare nil.
+ */
++ (void)requestEventWithDomain:(NSString *)domain
+                    withAction:(NSString *)action
+                  withUniqueId:(NSString *)uniqueId
+                 withEventCode:(NSString *)eventCode
+              withEventDetails:(NSString *)eventDetails;
+
+/**
+ Fa una richesta automatica con i valori di default.
+ 
+ */
++ (void)requestAutomaticNewHeadRecord;
+
+
 @end

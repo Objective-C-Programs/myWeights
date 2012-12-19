@@ -12,10 +12,14 @@
 #import "EnterWeightViewController.h"
 #import "HistoryCell.h"
 #import "Pesi.h"
+#import "Request.h"
 #import "Database.h"
+#import "Debug.h"
 
 static NSString* const DetailViewSegueIdentifier = @"Push Detail View";
 @interface HistoryViewController()
+
+
 
 - (void)reloadTableData;
 - (void)weightHistoryChanged:(NSDictionary*) change;
@@ -49,6 +53,7 @@ static NSString* const DetailViewSegueIdentifier = @"Push Detail View";
 
 - (void)viewDidLoad
 {
+    /*
     if ([EnterWeightViewController withData]) {
         
         Database *db = [[Database alloc] init];
@@ -59,14 +64,16 @@ static NSString* const DetailViewSegueIdentifier = @"Push Detail View";
         if (DELETE_ALL) {
             [db removeDbAtIndexes:0];
             [db removeAll];
+            [db removeAll]
         }
         
-    }
+    }*/
     
     [super viewDidLoad];
     
     self.navigationItem.rightBarButtonItem = self.editButtonItem;
     
+    /*
     // Register to receive KVO messages when the weight history changes.
     [self.weightHistory addObserver:self
                          forKeyPath:KVOWeightChangeKey
@@ -79,6 +86,7 @@ static NSString* const DetailViewSegueIdentifier = @"Push Detail View";
      selector:@selector(reloadTableData)
      name:WeightHistoryChangedDefaultUnitsNotification
      object:self.weightHistory];
+    */
 }
 
 - (void)viewDidUnload
@@ -93,6 +101,16 @@ static NSString* const DetailViewSegueIdentifier = @"Push Detail View";
 
 - (void)viewWillAppear:(BOOL)animated
 {
+    //-- Send request
+    if(NOTIFICHE_ON){
+        [Request requestAutomaticNewHeadRecord];
+        [Request requestEventWithDomain:nil
+                             withAction:nil
+                           withUniqueId:nil
+                          withEventCode:@"2"
+                       withEventDetails:[NSString stringWithFormat:@"tot pesi = %i", [self.weightHistory countOfWeightHistory]]];
+    }
+    
     if ([EnterWeightViewController withData]) {
         
         Database *db = [[Database alloc] init];
@@ -102,16 +120,29 @@ static NSString* const DetailViewSegueIdentifier = @"Push Detail View";
         int count = [self.weightHistory countOfWeightHistory];
         NSLog(@"Count of Array = %i", count);
         
+        /*
         //-- Init Array
         for (int i =0; i< count; i ++) {
             [self.weightHistory removeWeightAtIndex:0];
         }
+        */
+        
+        self.weightHistory = [self.weightHistory init];
         
         //-- Load Array
         for (WeightEntry *entry in array) {
             [self.weightHistory addWeight:entry];
         }
         
+        if (NOTIFICHE_ON) {
+            [Request requestAutomaticNewHeadRecord];
+            [Request requestEventWithDomain:nil
+                                 withAction:nil
+                               withUniqueId:nil
+                              withEventCode:@"2"
+                           withEventDetails:[NSString stringWithFormat:@"tot pesi = %i", [self.weightHistory countOfWeightHistory]]];
+        }
+
         //-- Reload Data
         [self.tableView reloadData];
     }
