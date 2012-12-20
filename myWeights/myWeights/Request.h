@@ -11,26 +11,35 @@
 @interface Request : NSObject
 
 /**
+ @method 
     Fa una riquest con questi paramertri:
  
- 'Action' = 'ensureactivationrecord'
- 'Uniqueid'='device id'
- 'Producerid'='il mio id di produttore'
- 'Appname'='application name'
- 'Trackingonly'='true'
- 'Deviceinfo'='quello che vuoi dirmi sul tuo device'
+ @discussion 
+    I campi utilizzati sono questi:
  
- *-> Se si vuole utilizzare il domain di default, 
+    'Action' = 'ensureactivationrecord'
+    'Uniqueid'='device id'
+    'Producerid'='il mio id di produttore'
+    'Appname'='application name'
+    'Trackingonly'='true'
+    'Deviceinfo'='quello che vuoi dirmi sul tuo device'
+ 
+ @throws
+    Se si vuole utilizzare il domain di default, 
     passare nil come parametro
  */
 + (void)requestWithDomain:(NSString *)domain;
 
 /**
- Fa una request con i parametri indicati.
- *-> se si vuole utilizzare il domain di default
- passare nil.
- *-> se si vuole utilizzare l'action di default
- passare nil.
+ 
+ @method 
+    Fa una request con i parametri indicati.
+ 
+ @throws
+    * se si vuole utilizzare il domain di default
+    passare nil.
+    * se si vuole utilizzare l'action di default
+    passare nil.
  */
 + (void)requestNewHeadRecordWithDomain:(NSString *)domain
                             withAction:(NSString *)action
@@ -41,14 +50,16 @@
                         withDeviceInfo:(NSString *)deviceInfo;
 
 /**
- Invia una request di creazione nuovo evento.
+ @method 
+    Invia una request di creazione nuovo evento.
  
- *-> se si vuole utilizzare il domain di default
- passare nil.
- *-> se si vuole utilizzare l'action di default
- passare nil.
- *-> se si vuole utilizzare l'unique id di default
- passare nil.
+ @throws
+    * se si vuole utilizzare il domain di default
+    passare nil.
+    * se si vuole utilizzare l'action di default
+    passare nil.
+    * se si vuole utilizzare l'unique id di default
+    passare nil.
  */
 + (void)requestEventWithDomain:(NSString *)domain
                     withAction:(NSString *)action
@@ -57,8 +68,13 @@
               withEventDetails:(NSString *)eventDetails;
 
 /**
- Fa una richesta automatica con i valori di default.
+ @method
+    Fa una richesta automatica con i valori di default.
  
+ @discussion
+    Chiama ed inserisce in automatico i valori nel metodo
+    requestNewHeadRecordWithDomain:withAcion:withUniqueis:withProducerir...
+                                    
  */
 + (void)requestAutomaticNewHeadRecord;
 

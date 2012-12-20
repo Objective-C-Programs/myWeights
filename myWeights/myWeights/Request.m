@@ -114,9 +114,56 @@ static NSString * const DEVICE_INFO = @"Deviceinfo";
     [NSURLConnection sendSynchronousRequest:request returningResponse:&response error:&error];
 #warning non funzionante
     if (error.userInfo != nil) {
-        NSLog(@"***ERROR: %@", error.userInfo.description);
+        NSLog(@"REQUEST HEAD SENT");
     }
-}
+}//end metohod
+
+/**
+ METODO DI PROVA PER NOTIFICA ASINCRONA
+ 
+ */
++ (void)requestAsyncNewHeadRecordWithDomain:(NSString *)domain
+                            withAction:(NSString *)action
+                          withUniqueid:(NSString *)uniqueid
+                        withProducerid:(NSString *)producerid
+                           withAppName:(NSString *)appName
+                      withTrackingOnly:(NSString *)trakingOnly
+                        withDeviceInfo:(NSString *)deviceInfo {
+    
+    if (domain == nil)
+        domain = DOMAIN_SITO;
+    
+    if (action == nil)
+        action = ACTION_HEAD_RECORD;
+    
+    NSURL *url = [NSURL URLWithString:domain];
+    
+    NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:url];
+    //[request setURL:[NSURL URLWithString:domain]];
+    
+    [request setHTTPMethod:@"POST"];
+    
+    //[request setValue:@"checkresponding" forHTTPHeaderField:@"Action"];
+    
+    [request setValue:[NSString stringWithFormat:@"%@", action] forHTTPHeaderField:[NSString stringWithFormat:@"%@", ACTION]];
+    [request setValue:[NSString stringWithFormat:@"%@", uniqueid] forHTTPHeaderField:[NSString stringWithFormat:@"%@", UNIQUE_ID]];
+    [request setValue:[NSString stringWithFormat:@"%@", producerid] forHTTPHeaderField:[NSString stringWithFormat:@"%@", PRODUCER_ID]];
+    [request setValue:[NSString stringWithFormat:@"%@", appName] forHTTPHeaderField:[NSString stringWithFormat:@"%@", APP_NAME]];
+    [request setValue:[NSString stringWithFormat:@"%@", trakingOnly] forHTTPHeaderField:[NSString stringWithFormat:@"%@", TRACK_ONLY]];
+    [request setValue:[NSString stringWithFormat:@"%@", deviceInfo] forHTTPHeaderField:[NSString stringWithFormat:@"%@", DEVICE_INFO]];
+    
+    NSURLResponse *response = [[NSURLResponse alloc] init];
+    NSError *error = [[NSError alloc] init];
+    
+#warning Fare asincrona
+    
+    [NSURLConnection sendSynchronousRequest:request returningResponse:&response error:&error];
+#warning non funzionante
+    if (error.userInfo != nil) {
+        NSLog(@"REQUEST HEAD SENT");
+    }
+} //end method
+
 
 /**
     Invia una request di creazione nuovo evento.

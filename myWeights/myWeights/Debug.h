@@ -11,6 +11,7 @@
 static BOOL NORMAL_LOG = YES;
 static BOOL ERROR_LOG = YES;
 static BOOL DATABASE_LOG = YES;
+static BOOL NOTIFICHE_ON = NO;
 
 @interface Debug : NSObject
 

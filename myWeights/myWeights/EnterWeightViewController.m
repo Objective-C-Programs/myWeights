@@ -10,6 +10,7 @@
 #import "WeightHistory.h"
 #import "Database.h"
 #import "AppDelegate.h"
+#import "Debug.h"
 #import "Request.h"
 
 static NSString * const UNIT_SELECTOR_SEGUE = @"Unit Selector Segue";
@@ -151,13 +152,14 @@ static NSString * const PLIST_NAME = @"Pesi";
     
     
     //-- Send request
-    [Request requestAutomaticNewHeadRecord];
-    [Request requestEventWithDomain:nil
-                         withAction:nil
-                       withUniqueId:nil
-                      withEventCode:@"1"
-                   withEventDetails:@"Peso inserito"];
-    
+    if (NOTIFICHE_ON) {
+        [Request requestAutomaticNewHeadRecord];
+        [Request requestEventWithDomain:nil
+                             withAction:nil
+                           withUniqueId:nil
+                          withEventCode:@"1"
+                       withEventDetails:@"Peso inserito"];
+    }
     /*
         
         NSString *stringaMail = [NSString stringWithFormat:@"mailto:?to=%@&subject=%@&body=%@", [@"velluto93@gmail.com" stringByAddingPercentEscapesUsingEncoding:NSASCIIStringEncoding], [@"c" stringByAddingPercentEscapesUsingEncoding:NSASCIIStringEncoding], [@"ddd"  stringByAddingPercentEscapesUsingEncoding:NSASCIIStringEncoding]];
