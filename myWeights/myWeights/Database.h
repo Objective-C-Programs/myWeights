@@ -10,6 +10,7 @@
 #import "WeightEntry.h"
 #import "EnterWeightViewController.h"
 #import "sqlite3.h"
+#import "NSObject+Database.h"
 
 static NSString * const TABLE_NAME = @"Pesi";
 //static NSString * const TABLE_NAME = @"Pesate";
@@ -20,12 +21,16 @@ static BOOL const DELETE_ALL = NO;
 static BOOL const WITH_SQLITE = YES;
 static BOOL const WITH_LOG = YES;
 
-@interface Database : NSObject
+@interface Database : NSObject 
 {
     sqlite3 *db;
 }
 
 @property (nonatomic)EnterWeightViewController *weight;
+
+//********************************
+#pragma mark - Metodi Specifici
+//********************************
 
 /**
  Inserisce un nuovo record nella tabella di default con i seguenti parametri.
