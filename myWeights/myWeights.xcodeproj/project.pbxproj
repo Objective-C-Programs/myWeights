@@ -289,14 +289,13 @@
 		A93CE1CE16518B9B0069257A /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				A9BE98AD1685D37500120EF5 /* Database */,
 				A9AFB2E5167F6698004D557B /* Request */,
 				A9A8E4CE1675197C00D07FAB /* Debug */,
 				A93CE1CF16518BB00069257A /* WeightEntry.h */,
 				A93CE1D016518BB00069257A /* WeightEntry.m */,
 				A93CE1DB16518CEA0069257A /* WeightHistory.h */,
 				A93CE1DC16518CEA0069257A /* WeightHistory.m */,
-				A93CE1DF16518D380069257A /* Database.h */,
-				A93CE1E016518D380069257A /* Database.m */,
 				A93CE1E316518D730069257A /* Pesi.h */,
 				A93CE1E416518D730069257A /* Pesi.m */,
 			);
@@ -345,6 +344,15 @@
 				A9AFB2E8167F66BA004D557B /* Request.m */,
 			);
 			name = Request;
+			sourceTree = "<group>";
+		};
+		A9BE98AD1685D37500120EF5 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				A93CE1DF16518D380069257A /* Database.h */,
+				A93CE1E016518D380069257A /* Database.m */,
+			);
+			name = Database;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

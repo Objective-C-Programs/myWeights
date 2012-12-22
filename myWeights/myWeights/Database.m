@@ -39,16 +39,22 @@
 
 - (void)createTable{
     
+    [self createTableNamed:TABLE_NAME];
+}
+
+- (void)createTableNamed:(NSString *)tableName{
+    
     char *err;
     NSString *sql = [NSString stringWithFormat:@"CREATE TABLE IF NOT EXISTS '%@' ('%@' "
-                     "INTEGER PRIMARY KEY, '%@' REAL, '%@' REAL);", TABLE_NAME, @"id", FIELD_WEIGHT , FIELD_DATE];
+                     "INTEGER PRIMARY KEY, '%@' REAL, '%@' REAL);", tableName, @"id", FIELD_WEIGHT , FIELD_DATE];
     
     if (sqlite3_exec(db, [sql UTF8String], NULL, NULL, &err) != SQLITE_OK) {
         
         sqlite3_close(db);
-        NSLog(@"Table %@ falied create.", TABLE_NAME);
+        NSLog(@"Table %@ falied create.", tableName);
     }
 }
+
 
 - (void)createTablePesate{
     
@@ -136,7 +142,12 @@
 
 - (int)countOfDb {
     
-    NSString * qsql = [NSString stringWithFormat:@"SELECT * FROM '%@'", TABLE_NAME];
+    return [self countOfDbFromTableNamed:TABLE_NAME];
+}
+
+- (int)countOfDbFromTableNamed:(NSString *)tableName {
+    
+    NSString * qsql = [NSString stringWithFormat:@"SELECT * FROM '%@'", tableName];
     sqlite3_stmt *statment;
     
     int count = 0;
@@ -189,10 +200,26 @@
     return err;
 }
 
+/**
+ Elimina un record dalla tabella di default dato l'index.
+ 
+ @param index -> numero del record da eliminare.
+ */
+#warning Cambiare Nome - (remove objectAtIndex:(int)index.
 - (void) removeDbAtIndexes:(int)indexes {
+    [self removeObjectFromTableNamed:TABLE_NAME atIndex:indexes];
+}
+
+/**
+ Elimina un record dalla tabella passata e al posto index passato.
+ 
+ @param tableName -> nome tabella dal quale si vuole eliminare il record.
+ @param index -> n° record che si vuole eliminare.
+ */
+- (void) removeObjectFromTableNamed:(NSString *)tableName atIndex:(int)index {
     
-    NSString *str = [TABLE_NAME stringByAppendingFormat:@".id"];
-    NSString * query = [NSString stringWithFormat:@"DELETE FROM %@ WHERE %@ = %i", TABLE_NAME, str, indexes];
+    NSString *str = [tableName stringByAppendingFormat:@".id"];
+    NSString * query = [NSString stringWithFormat:@"DELETE FROM %@ WHERE %@ = %i", tableName, str, index];
     sqlite3_stmt *compiledStatement;
     char *err;
     if (sqlite3_exec(db, [query UTF8String], nil, &compiledStatement, &err) != SQLITE_OK) {
@@ -201,26 +228,44 @@
         NSLog(@"****** Error Delete Record. '%s'", err);
     }
     else {
-        WITH_LOG ? NSLog(@"Record %i Delete Successfull", indexes) : nil;
+        WITH_LOG ? NSLog(@"Record %i Delete Successfull", index) : nil;
     }
+
 }
 
+/**
+ Svuolta la tabella di default da tutti gli elementi.
+ */
 - (void)removeAll {
     
-    NSString *query = [NSString stringWithFormat:@"DELETE FROM \"main\".\"%@\"", TABLE_NAME];
+    [self removeAllFromTableNamed:TABLE_NAME];
+}
+
+/**
+ Svuota la tabella passata da tutti gli elementi.
+ 
+ @param tableName -> Tabella dal quale eliminare i record.
+ */
+- (void)removeAllFromTableNamed:(NSString *)tableName{
+    
+    NSString *query = [NSString stringWithFormat:@"DELETE FROM \"main\".\"%@\"", tableName];
     sqlite3_stmt *compiledStatement;
     char *err;
     if (sqlite3_exec(db, [query UTF8String], nil, &compiledStatement, &err) != SQLITE_OK) {
         
         sqlite3_close(db);
-        NSLog(@"******Error Empty Ithems from table %@, with error. '%s'", TABLE_NAME, err);
+        NSLog(@"******Error Empty Ithems from table %@, with error. '%s'", tableName, err);
         sqlite3_close(db);
     }
     else {
-        WITH_LOG ? NSLog(@"Empty Table %@ successfull", TABLE_NAME) : nil;
+        WITH_LOG ? NSLog(@"Empty Table %@ successfull", tableName) : nil;
     }
+
 }
 
+/**
+ Restituisce il nome della tabella di default.
+ */
 + (NSString *)tableName {
     
     return TABLE_NAME;

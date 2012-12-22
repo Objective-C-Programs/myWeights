@@ -10,6 +10,8 @@
 
 @interface Request : NSObject
 
++ (Request *)instance;
+
 /**
  @method 
     Fa una riquest con questi paramertri:
@@ -78,5 +80,6 @@
  */
 + (void)requestAutomaticNewHeadRecord;
 
++ (void)sentCustonEventWithCode:(NSString *)code eventDetail:(NSString *)detail;
 
 @end
