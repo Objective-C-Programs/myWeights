@@ -29,7 +29,9 @@ static BOOL const WITH_LOG = YES;
 @property (nonatomic)EnterWeightViewController *weight;
 
 //********************************
+//********************************
 #pragma mark - Metodi Specifici
+//********************************
 //********************************
 
 /**
@@ -57,9 +59,36 @@ static BOOL const WITH_LOG = YES;
  */
 - (NSArray *)getAllPesi;
 
+/**
+ Elimina un record dalla tabella di default dato l'index.
+ 
+ @param index -> numero del record da eliminare.
+ */
+- (void) removeDbAtIndexes:(int)indexes;
+
+/**
+ Restituisce il n°record dell'ultimo valore
+ */
+- (int)lastValue;
+
+/**
+ Svuolta la tabella di default da tutti gli elementi.
+ */
+- (void)removeAll;
+
+
+/**
+ Restuisce quanti record ho nella tabella di defaul.
+ 
+ @return int -> quanti record ho nel db.
+ */
+- (int)countOfDb;
+
 
 //********************************
+//********************************
 #pragma mark - Metodi Standard
+//********************************
 //********************************
 
 /**
@@ -83,13 +112,6 @@ static BOOL const WITH_LOG = YES;
 - (void)createTableNamed:(NSString *)tableName;
 
 /**
- Restuisce quanti record ho nella tabella di defaul.
- 
- @return int -> quanti record ho nel db.
- */
-- (int)countOfDb;
-
-/**
  Restuisce quanti record ho nella tabella.
  
  @param tableName -> nome tabella.
@@ -105,29 +127,12 @@ static BOOL const WITH_LOG = YES;
 - (char *)DeleteTable:(NSString *)table;
 
 /**
- Elimina un record dalla tabella di default dato l'index.
- 
- @param index -> numero del record da eliminare.
- */
-- (void) removeDbAtIndexes:(int)indexes;
-
-/**
  Elimina un record dalla tabella passata e al posto index passato.
  
  @param tableName -> nome tabella dal quale si vuole eliminare il record.
  @param index -> n° record che si vuole eliminare.
  */
 - (void) removeObjectFromTableNamed:(NSString *)tableName atIndex:(int)index;
-
-/**
- Restituisce il n°record dell'ultimo valore
- */
-- (int)lastValue;
-
-/**
- Svuolta la tabella di default da tutti gli elementi.
- */
-- (void)removeAll;
 
 /**
  Svuota la tabella passata da tutti gli elementi.

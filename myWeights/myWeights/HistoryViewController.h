@@ -15,4 +15,5 @@
 
 @property (strong, nonatomic) WeightHistory* weightHistory;
 @property (nonatomic) sqlite3 * db;
+- (IBAction)deleteAllButtonPressed:(id)sender;
 @end
