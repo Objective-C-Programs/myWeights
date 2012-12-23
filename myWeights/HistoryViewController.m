@@ -371,5 +371,13 @@ forRowAtIndexPath:(NSIndexPath *)indexPath {
     [self.tableView reloadData];
 }
 
+- (IBAction)deleteAllButtonPressed:(id)sender {
+    
+    Database *db = [[Database alloc] init];
+    [db openDB];
+    [db createTable];
+    [db removeAll];
+    [self reloadTableData];
+}
 @end
 

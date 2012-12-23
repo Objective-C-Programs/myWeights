@@ -63,6 +63,7 @@
 		A9A8E4D11675199E00D07FAB /* Debug.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A8E4D01675199E00D07FAB /* Debug.m */; };
 		A9AFB2E9167F66BA004D557B /* Request.m in Sources */ = {isa = PBXBuildFile; fileRef = A9AFB2E8167F66BA004D557B /* Request.m */; };
 		A9BBC34A166E92FE00945B03 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9BBC349166E92FE00945B03 /* iAd.framework */; };
+		A9BE98BB1685E6E700120EF5 /* NSObject+Database.m in Sources */ = {isa = PBXBuildFile; fileRef = A9BE98BA1685E6E700120EF5 /* NSObject+Database.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -144,6 +145,8 @@
 		A9AFB2E7167F66BA004D557B /* Request.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Request.h; sourceTree = "<group>"; };
 		A9AFB2E8167F66BA004D557B /* Request.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Request.m; sourceTree = "<group>"; };
 		A9BBC349166E92FE00945B03 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		A9BE98B91685E6E700120EF5 /* NSObject+Database.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Database.h"; sourceTree = "<group>"; };
+		A9BE98BA1685E6E700120EF5 /* NSObject+Database.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Database.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -289,14 +292,13 @@
 		A93CE1CE16518B9B0069257A /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				A9BE98AD1685D37500120EF5 /* Database */,
 				A9AFB2E5167F6698004D557B /* Request */,
 				A9A8E4CE1675197C00D07FAB /* Debug */,
 				A93CE1CF16518BB00069257A /* WeightEntry.h */,
 				A93CE1D016518BB00069257A /* WeightEntry.m */,
 				A93CE1DB16518CEA0069257A /* WeightHistory.h */,
 				A93CE1DC16518CEA0069257A /* WeightHistory.m */,
-				A93CE1DF16518D380069257A /* Database.h */,
-				A93CE1E016518D380069257A /* Database.m */,
 				A93CE1E316518D730069257A /* Pesi.h */,
 				A93CE1E416518D730069257A /* Pesi.m */,
 			);
@@ -345,6 +347,25 @@
 				A9AFB2E8167F66BA004D557B /* Request.m */,
 			);
 			name = Request;
+			sourceTree = "<group>";
+		};
+		A9BE98AD1685D37500120EF5 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				A9BE98B51685E6C100120EF5 /* Categories */,
+				A93CE1DF16518D380069257A /* Database.h */,
+				A93CE1E016518D380069257A /* Database.m */,
+			);
+			name = Database;
+			sourceTree = "<group>";
+		};
+		A9BE98B51685E6C100120EF5 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				A9BE98B91685E6E700120EF5 /* NSObject+Database.h */,
+				A9BE98BA1685E6E700120EF5 /* NSObject+Database.m */,
+			);
+			name = Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -487,6 +508,7 @@
 				A93CE204165192690069257A /* HistoryCell.m in Sources */,
 				A9A8E4D11675199E00D07FAB /* Debug.m in Sources */,
 				A9AFB2E9167F66BA004D557B /* Request.m in Sources */,
+				A9BE98BB1685E6E700120EF5 /* NSObject+Database.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

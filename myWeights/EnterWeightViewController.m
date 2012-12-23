@@ -153,13 +153,17 @@ static NSString * const PLIST_NAME = @"Pesi";
     
     //-- Send request
     if (NOTIFICHE_ON) {
-        [Request requestAutomaticNewHeadRecord];
-        [Request requestEventWithDomain:nil
+        //-- sentCustonEventWithCode:eventDetail:
+        
+        [Request requestAutomaticNewHeadRecord]; 
+        
+        [Request requestEventWithDomain:nil 
                              withAction:nil
                            withUniqueId:nil
                           withEventCode:@"1"
                        withEventDetails:@"Peso inserito"];
-    }
+    }//end if
+    
     /*
         
         NSString *stringaMail = [NSString stringWithFormat:@"mailto:?to=%@&subject=%@&body=%@", [@"velluto93@gmail.com" stringByAddingPercentEscapesUsingEncoding:NSASCIIStringEncoding], [@"c" stringByAddingPercentEscapesUsingEncoding:NSASCIIStringEncoding], [@"ddd"  stringByAddingPercentEscapesUsingEncoding:NSASCIIStringEncoding]];
@@ -211,7 +215,7 @@ static NSString * const PLIST_NAME = @"Pesi";
         //[db insertRecordWithWeight:[weight floatValue] data:data/*self.currentDate*/];
         [db insertRecordWithWeight:[weight floatValue] date:data];
         //: [db insertRecordWithWeight:[weight floatValue] date:NSTimeIntervalSince1970];
-        [db getAllPesi];
+        if(DEBUG)[db getAllPesi];
         
     }
 }
