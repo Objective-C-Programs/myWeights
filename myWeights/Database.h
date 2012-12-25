@@ -21,7 +21,7 @@ static BOOL const DELETE_ALL = NO;
 static BOOL const WITH_SQLITE = YES;
 static BOOL const WITH_LOG = YES;
 
-@interface Database : NSObject 
+@interface Database : NSObject
 {
     sqlite3 *db;
 }
@@ -84,6 +84,14 @@ static BOOL const WITH_LOG = YES;
  */
 - (int)countOfDb;
 
+/**
+ Crea una tabella con il nome passato.
+ 
+ @param tableName -> nome della tabella da creare.
+ */
+- (void)createTableNamed:(NSString *)tableName;
+
+
 
 //********************************
 //********************************
@@ -103,13 +111,6 @@ static BOOL const WITH_LOG = YES;
  Apre il database.
  */
 - (void) openDB;
-
-/**
- Crea una tabella con il nome passato.
- 
- @param tableName -> nome della tabella da creare.
- */
-- (void)createTableNamed:(NSString *)tableName;
 
 /**
  Restuisce quanti record ho nella tabella.

@@ -215,7 +215,7 @@ static NSString * const PLIST_NAME = @"Pesi";
         //[db insertRecordWithWeight:[weight floatValue] data:data/*self.currentDate*/];
         [db insertRecordWithWeight:[weight floatValue] date:data];
         //: [db insertRecordWithWeight:[weight floatValue] date:NSTimeIntervalSince1970];
-        if(DEBUG)[db getAllPesi];
+        //if(DEBUG)[db getAllPesi];
         
     }
 }

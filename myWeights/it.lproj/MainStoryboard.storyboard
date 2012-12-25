@@ -173,12 +173,15 @@
                             <outlet property="delegate" destination="dSz-l7-t3u" id="Wcw-oX-m6k"/>
                         </connections>
                     </tableView>
-                    <toolbarItems>
-                        <barButtonItem title="Cancella Tutto" id="eHz-7x-ztz">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Lista Pesi" id="MGS-N5-8Qx">
+                        <barButtonItem key="leftBarButtonItem" title="Cancella Tutto" id="eHz-7x-ztz">
                             <color key="tintColor" red="1" green="0.49951811915339128" blue="0.36613448847466412" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="deleteAllButtonPressed:" destination="dSz-l7-t3u" id="bJA-Qk-tlV"/>
+                            </connections>
                         </barButtonItem>
-                    </toolbarItems>
-                    <navigationItem key="navigationItem" title="Lista Pesi" id="MGS-N5-8Qx"/>
+                    </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="t9u-BC-fyj" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -194,7 +197,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <adBannerView key="tableFooterView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="b0i-VB-f6H">
-                            <rect key="frame" x="0.0" y="324" width="320" height="52"/>
+                            <rect key="frame" x="0.0" y="326" width="320" height="50"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             <requiredContentSizeIdentifiers>
                                 <string>ADBannerContentSizeLandscape</string>

@@ -196,7 +196,6 @@
     }
     else
         WITH_LOG ? NSLog(@"Table %@ Delete Successfull", table) : nil;
-    
     return err;
 }
 
@@ -230,7 +229,6 @@
     else {
         WITH_LOG ? NSLog(@"Record %i Delete Successfull", index) : nil;
     }
-
 }
 
 /**
@@ -247,7 +245,9 @@
  @param tableName -> Tabella dal quale eliminare i record.
  */
 - (void)removeAllFromTableNamed:(NSString *)tableName{
-    
+   
+    db = [self removeAllFromTableNamed:tableName fromDB:db];
+    /*
     NSString *query = [NSString stringWithFormat:@"DELETE FROM \"main\".\"%@\"", tableName];
     sqlite3_stmt *compiledStatement;
     char *err;
@@ -260,7 +260,7 @@
     else {
         WITH_LOG ? NSLog(@"Empty Table %@ successfull", tableName) : nil;
     }
-
+*/
 }
 
 /**
