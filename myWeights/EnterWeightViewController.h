@@ -12,7 +12,7 @@
 @class WeightHistory;
 
 @interface EnterWeightViewController : UIViewController
-<UITextFieldDelegate, UnitSelectorViewControllerDelegate>
+<UITextFieldDelegate, UnitSelectorViewControllerDelegate, NSURLConnectionDelegate>
 
 @property (nonatomic, strong) WeightHistory* weightHistory;
 @property (strong, nonatomic) IBOutlet UITextField *weightTextField;

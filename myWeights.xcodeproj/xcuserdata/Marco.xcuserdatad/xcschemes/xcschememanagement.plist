@@ -4,6 +4,16 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>myWeights copy 10.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
+		<key>myWeights copy 12.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>8</integer>
+		</dict>
 		<key>myWeights copy 2.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -13,6 +23,16 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>4</integer>
+		</dict>
+		<key>myWeights copy 6.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+		<key>myWeights copy 8.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
 		</dict>
 		<key>myWeights copy.xcscheme</key>
 		<dict>
@@ -32,6 +52,16 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>A907513716FB68E0001C10C9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A907516A16FB691D001C10C9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>A9253560166F8F5400B2F399</key>
 		<dict>
 			<key>primary</key>
@@ -58,6 +88,21 @@
 			<true/>
 		</dict>
 		<key>A93CE1B016518A910069257A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A9FBAC3316E0A7110056E281</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A9FBAC6416E0A74C0056E281</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A9FBAC9516E0ABE10056E281</key>
 		<dict>
 			<key>primary</key>
 			<true/>

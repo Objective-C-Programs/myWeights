@@ -8,7 +8,7 @@
 
 #import "GraphView.h"
 #import "GraphStats.h"
-
+#import "sqlite3.h"
 @interface GraphView()
 
 @property (nonatomic, assign) WeightUnit units;

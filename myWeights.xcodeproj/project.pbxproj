@@ -7,6 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A907516C16FB691D001C10C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE18F16518A900069257A /* main.m */; };
+		A907516D16FB691D001C10C9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE19316518A900069257A /* AppDelegate.m */; };
+		A907516E16FB691D001C10C9 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE19F16518A910069257A /* FirstViewController.m */; };
+		A907516F16FB691D001C10C9 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE1A616518A910069257A /* SecondViewController.m */; };
+		A907517016FB691D001C10C9 /* WeightEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE1D016518BB00069257A /* WeightEntry.m */; };
+		A907517116FB691D001C10C9 /* EnterWeightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE1D416518BD90069257A /* EnterWeightViewController.m */; };
+		A907517216FB691D001C10C9 /* UnitSelectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE1D816518C7E0069257A /* UnitSelectorViewController.m */; };
+		A907517316FB691D001C10C9 /* WeightHistory.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE1DC16518CEA0069257A /* WeightHistory.m */; };
+		A907517416FB691D001C10C9 /* Database.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE1E016518D380069257A /* Database.m */; };
+		A907517516FB691D001C10C9 /* Pesi.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE1E416518D730069257A /* Pesi.m */; };
+		A907517616FB691D001C10C9 /* GraphStats.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE1EB16518FFC0069257A /* GraphStats.m */; };
+		A907517716FB691D001C10C9 /* GraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE1EF1651903E0069257A /* GraphView.m */; };
+		A907517816FB691D001C10C9 /* GraphViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE1F31651907D0069257A /* GraphViewViewController.m */; };
+		A907517916FB691D001C10C9 /* HistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE1F7165191A50069257A /* HistoryViewController.m */; };
+		A907517A16FB691D001C10C9 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE1FB165191CE0069257A /* DetailViewController.m */; };
+		A907517B16FB691D001C10C9 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE1FF165192090069257A /* TabBarController.m */; };
+		A907517C16FB691D001C10C9 /* HistoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE203165192680069257A /* HistoryCell.m */; };
+		A907517D16FB691D001C10C9 /* Debug.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A8E4D01675199E00D07FAB /* Debug.m */; };
+		A907517E16FB691D001C10C9 /* Request.m in Sources */ = {isa = PBXBuildFile; fileRef = A9AFB2E8167F66BA004D557B /* Request.m */; };
+		A907517F16FB691D001C10C9 /* NSObject+Database.m in Sources */ = {isa = PBXBuildFile; fileRef = A9BE98BA1685E6E700120EF5 /* NSObject+Database.m */; };
+		A907518016FB691D001C10C9 /* RequestDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A984C2E416FB14C600686328 /* RequestDelegate.m */; };
+		A907518116FB691D001C10C9 /* RequestEventDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A984C2E816FB338D00686328 /* RequestEventDelegate.m */; };
+		A907518316FB691D001C10C9 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9BBC349166E92FE00945B03 /* iAd.framework */; };
+		A907518416FB691D001C10C9 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A93CE1E716518DC00069257A /* libsqlite3.0.dylib */; };
+		A907518516FB691D001C10C9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A93CE18316518A900069257A /* UIKit.framework */; };
+		A907518616FB691D001C10C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A93CE18516518A900069257A /* Foundation.framework */; };
+		A907518716FB691D001C10C9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A93CE18716518A900069257A /* CoreGraphics.framework */; };
+		A907518916FB691D001C10C9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A93CE18C16518A900069257A /* InfoPlist.strings */; };
+		A907518A16FB691D001C10C9 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A93CE19516518A900069257A /* Default.png */; };
+		A907518B16FB691D001C10C9 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A93CE19716518A900069257A /* Default@2x.png */; };
+		A907518C16FB691D001C10C9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A93CE19916518A900069257A /* Default-568h@2x.png */; };
+		A907518D16FB691D001C10C9 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A93CE19B16518A910069257A /* MainStoryboard.storyboard */; };
+		A907518E16FB691D001C10C9 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = A93CE1A116518A910069257A /* first.png */; };
+		A907518F16FB691D001C10C9 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A93CE1A316518A910069257A /* first@2x.png */; };
+		A907519016FB691D001C10C9 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = A93CE1A816518A910069257A /* second.png */; };
+		A907519116FB691D001C10C9 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A93CE1AA16518A910069257A /* second@2x.png */; };
+		A907519216FB691D001C10C9 /* 57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = A90BF169165B80EC00EE5D65 /* 57x57.png */; };
+		A907519316FB691D001C10C9 /* 114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = A90BF16C165B80EF00EE5D65 /* 114x114.png */; };
+		A907519416FB691D001C10C9 /* graph.png in Resources */ = {isa = PBXBuildFile; fileRef = A981292E166BF9AA0024B411 /* graph.png */; };
+		A907519516FB691D001C10C9 /* graph@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A981292F166BF9AA0024B411 /* graph@2x.png */; };
+		A907519616FB691D001C10C9 /* plus.png in Resources */ = {isa = PBXBuildFile; fileRef = A9812933166BF9B40024B411 /* plus.png */; };
+		A907519716FB691D001C10C9 /* plus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9812934166BF9B40024B411 /* plus@2x.png */; };
 		A90BF16A165B80EC00EE5D65 /* 57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = A90BF169165B80EC00EE5D65 /* 57x57.png */; };
 		A90BF16D165B80EF00EE5D65 /* 114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = A90BF16C165B80EF00EE5D65 /* 114x114.png */; };
 		A93CE18416518A900069257A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A93CE18316518A900069257A /* UIKit.framework */; };
@@ -60,10 +102,132 @@
 		A9812931166BF9AA0024B411 /* graph@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A981292F166BF9AA0024B411 /* graph@2x.png */; };
 		A9812935166BF9B40024B411 /* plus.png in Resources */ = {isa = PBXBuildFile; fileRef = A9812933166BF9B40024B411 /* plus.png */; };
 		A9812936166BF9B40024B411 /* plus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9812934166BF9B40024B411 /* plus@2x.png */; };
+		A984C2E516FB14C600686328 /* RequestDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A984C2E416FB14C600686328 /* RequestDelegate.m */; };
+		A984C2E916FB338D00686328 /* RequestEventDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A984C2E816FB338D00686328 /* RequestEventDelegate.m */; };
 		A9A8E4D11675199E00D07FAB /* Debug.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A8E4D01675199E00D07FAB /* Debug.m */; };
 		A9AFB2E9167F66BA004D557B /* Request.m in Sources */ = {isa = PBXBuildFile; fileRef = A9AFB2E8167F66BA004D557B /* Request.m */; };
 		A9BBC34A166E92FE00945B03 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9BBC349166E92FE00945B03 /* iAd.framework */; };
 		A9BE98BB1685E6E700120EF5 /* NSObject+Database.m in Sources */ = {isa = PBXBuildFile; fileRef = A9BE98BA1685E6E700120EF5 /* NSObject+Database.m */; };
+		A9FBAC3516E0A7110056E281 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE18F16518A900069257A /* main.m */; };
+		A9FBAC3616E0A7110056E281 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE19316518A900069257A /* AppDelegate.m */; };
+		A9FBAC3716E0A7110056E281 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE19F16518A910069257A /* FirstViewController.m */; };
+		A9FBAC3816E0A7110056E281 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE1A616518A910069257A /* SecondViewController.m */; };
+		A9FBAC3916E0A7110056E281 /* WeightEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE1D016518BB00069257A /* WeightEntry.m */; };
+		A9FBAC3A16E0A7110056E281 /* EnterWeightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE1D416518BD90069257A /* EnterWeightViewController.m */; };
+		A9FBAC3B16E0A7110056E281 /* UnitSelectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE1D816518C7E0069257A /* UnitSelectorViewController.m */; };
+		A9FBAC3C16E0A7110056E281 /* WeightHistory.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE1DC16518CEA0069257A /* WeightHistory.m */; };
+		A9FBAC3D16E0A7110056E281 /* Database.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE1E016518D380069257A /* Database.m */; };
+		A9FBAC3E16E0A7110056E281 /* Pesi.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE1E416518D730069257A /* Pesi.m */; };
+		A9FBAC3F16E0A7110056E281 /* GraphStats.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE1EB16518FFC0069257A /* GraphStats.m */; };
+		A9FBAC4016E0A7110056E281 /* GraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE1EF1651903E0069257A /* GraphView.m */; };
+		A9FBAC4116E0A7110056E281 /* GraphViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE1F31651907D0069257A /* GraphViewViewController.m */; };
+		A9FBAC4216E0A7110056E281 /* HistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE1F7165191A50069257A /* HistoryViewController.m */; };
+		A9FBAC4316E0A7110056E281 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE1FB165191CE0069257A /* DetailViewController.m */; };
+		A9FBAC4416E0A7110056E281 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE1FF165192090069257A /* TabBarController.m */; };
+		A9FBAC4516E0A7110056E281 /* HistoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE203165192680069257A /* HistoryCell.m */; };
+		A9FBAC4616E0A7110056E281 /* Debug.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A8E4D01675199E00D07FAB /* Debug.m */; };
+		A9FBAC4716E0A7110056E281 /* Request.m in Sources */ = {isa = PBXBuildFile; fileRef = A9AFB2E8167F66BA004D557B /* Request.m */; };
+		A9FBAC4816E0A7110056E281 /* NSObject+Database.m in Sources */ = {isa = PBXBuildFile; fileRef = A9BE98BA1685E6E700120EF5 /* NSObject+Database.m */; };
+		A9FBAC4A16E0A7110056E281 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9BBC349166E92FE00945B03 /* iAd.framework */; };
+		A9FBAC4B16E0A7110056E281 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A93CE1E716518DC00069257A /* libsqlite3.0.dylib */; };
+		A9FBAC4C16E0A7110056E281 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A93CE18316518A900069257A /* UIKit.framework */; };
+		A9FBAC4D16E0A7110056E281 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A93CE18516518A900069257A /* Foundation.framework */; };
+		A9FBAC4E16E0A7110056E281 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A93CE18716518A900069257A /* CoreGraphics.framework */; };
+		A9FBAC5016E0A7110056E281 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A93CE18C16518A900069257A /* InfoPlist.strings */; };
+		A9FBAC5116E0A7110056E281 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A93CE19516518A900069257A /* Default.png */; };
+		A9FBAC5216E0A7110056E281 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A93CE19716518A900069257A /* Default@2x.png */; };
+		A9FBAC5316E0A7110056E281 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A93CE19916518A900069257A /* Default-568h@2x.png */; };
+		A9FBAC5416E0A7110056E281 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A93CE19B16518A910069257A /* MainStoryboard.storyboard */; };
+		A9FBAC5516E0A7110056E281 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = A93CE1A116518A910069257A /* first.png */; };
+		A9FBAC5616E0A7110056E281 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A93CE1A316518A910069257A /* first@2x.png */; };
+		A9FBAC5716E0A7110056E281 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = A93CE1A816518A910069257A /* second.png */; };
+		A9FBAC5816E0A7110056E281 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A93CE1AA16518A910069257A /* second@2x.png */; };
+		A9FBAC5916E0A7110056E281 /* 57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = A90BF169165B80EC00EE5D65 /* 57x57.png */; };
+		A9FBAC5A16E0A7110056E281 /* 114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = A90BF16C165B80EF00EE5D65 /* 114x114.png */; };
+		A9FBAC5B16E0A7110056E281 /* graph.png in Resources */ = {isa = PBXBuildFile; fileRef = A981292E166BF9AA0024B411 /* graph.png */; };
+		A9FBAC5C16E0A7110056E281 /* graph@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A981292F166BF9AA0024B411 /* graph@2x.png */; };
+		A9FBAC5D16E0A7110056E281 /* plus.png in Resources */ = {isa = PBXBuildFile; fileRef = A9812933166BF9B40024B411 /* plus.png */; };
+		A9FBAC5E16E0A7110056E281 /* plus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9812934166BF9B40024B411 /* plus@2x.png */; };
+		A9FBAC6616E0A74C0056E281 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE18F16518A900069257A /* main.m */; };
+		A9FBAC6716E0A74C0056E281 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE19316518A900069257A /* AppDelegate.m */; };
+		A9FBAC6816E0A74C0056E281 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE19F16518A910069257A /* FirstViewController.m */; };
+		A9FBAC6916E0A74C0056E281 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE1A616518A910069257A /* SecondViewController.m */; };
+		A9FBAC6A16E0A74C0056E281 /* WeightEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE1D016518BB00069257A /* WeightEntry.m */; };
+		A9FBAC6B16E0A74C0056E281 /* EnterWeightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE1D416518BD90069257A /* EnterWeightViewController.m */; };
+		A9FBAC6C16E0A74C0056E281 /* UnitSelectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE1D816518C7E0069257A /* UnitSelectorViewController.m */; };
+		A9FBAC6D16E0A74C0056E281 /* WeightHistory.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE1DC16518CEA0069257A /* WeightHistory.m */; };
+		A9FBAC6E16E0A74C0056E281 /* Database.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE1E016518D380069257A /* Database.m */; };
+		A9FBAC6F16E0A74C0056E281 /* Pesi.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE1E416518D730069257A /* Pesi.m */; };
+		A9FBAC7016E0A74C0056E281 /* GraphStats.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE1EB16518FFC0069257A /* GraphStats.m */; };
+		A9FBAC7116E0A74C0056E281 /* GraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE1EF1651903E0069257A /* GraphView.m */; };
+		A9FBAC7216E0A74C0056E281 /* GraphViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE1F31651907D0069257A /* GraphViewViewController.m */; };
+		A9FBAC7316E0A74C0056E281 /* HistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE1F7165191A50069257A /* HistoryViewController.m */; };
+		A9FBAC7416E0A74C0056E281 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE1FB165191CE0069257A /* DetailViewController.m */; };
+		A9FBAC7516E0A74C0056E281 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE1FF165192090069257A /* TabBarController.m */; };
+		A9FBAC7616E0A74C0056E281 /* HistoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE203165192680069257A /* HistoryCell.m */; };
+		A9FBAC7716E0A74C0056E281 /* Debug.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A8E4D01675199E00D07FAB /* Debug.m */; };
+		A9FBAC7816E0A74C0056E281 /* Request.m in Sources */ = {isa = PBXBuildFile; fileRef = A9AFB2E8167F66BA004D557B /* Request.m */; };
+		A9FBAC7916E0A74C0056E281 /* NSObject+Database.m in Sources */ = {isa = PBXBuildFile; fileRef = A9BE98BA1685E6E700120EF5 /* NSObject+Database.m */; };
+		A9FBAC7B16E0A74C0056E281 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9BBC349166E92FE00945B03 /* iAd.framework */; };
+		A9FBAC7C16E0A74C0056E281 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A93CE1E716518DC00069257A /* libsqlite3.0.dylib */; };
+		A9FBAC7D16E0A74C0056E281 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A93CE18316518A900069257A /* UIKit.framework */; };
+		A9FBAC7E16E0A74C0056E281 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A93CE18516518A900069257A /* Foundation.framework */; };
+		A9FBAC7F16E0A74C0056E281 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A93CE18716518A900069257A /* CoreGraphics.framework */; };
+		A9FBAC8116E0A74C0056E281 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A93CE18C16518A900069257A /* InfoPlist.strings */; };
+		A9FBAC8216E0A74C0056E281 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A93CE19516518A900069257A /* Default.png */; };
+		A9FBAC8316E0A74C0056E281 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A93CE19716518A900069257A /* Default@2x.png */; };
+		A9FBAC8416E0A74C0056E281 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A93CE19916518A900069257A /* Default-568h@2x.png */; };
+		A9FBAC8516E0A74C0056E281 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A93CE19B16518A910069257A /* MainStoryboard.storyboard */; };
+		A9FBAC8616E0A74C0056E281 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = A93CE1A116518A910069257A /* first.png */; };
+		A9FBAC8716E0A74C0056E281 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A93CE1A316518A910069257A /* first@2x.png */; };
+		A9FBAC8816E0A74C0056E281 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = A93CE1A816518A910069257A /* second.png */; };
+		A9FBAC8916E0A74C0056E281 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A93CE1AA16518A910069257A /* second@2x.png */; };
+		A9FBAC8A16E0A74C0056E281 /* 57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = A90BF169165B80EC00EE5D65 /* 57x57.png */; };
+		A9FBAC8B16E0A74C0056E281 /* 114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = A90BF16C165B80EF00EE5D65 /* 114x114.png */; };
+		A9FBAC8C16E0A74C0056E281 /* graph.png in Resources */ = {isa = PBXBuildFile; fileRef = A981292E166BF9AA0024B411 /* graph.png */; };
+		A9FBAC8D16E0A74C0056E281 /* graph@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A981292F166BF9AA0024B411 /* graph@2x.png */; };
+		A9FBAC8E16E0A74C0056E281 /* plus.png in Resources */ = {isa = PBXBuildFile; fileRef = A9812933166BF9B40024B411 /* plus.png */; };
+		A9FBAC8F16E0A74C0056E281 /* plus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9812934166BF9B40024B411 /* plus@2x.png */; };
+		A9FBAC9716E0ABE10056E281 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE18F16518A900069257A /* main.m */; };
+		A9FBAC9816E0ABE10056E281 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE19316518A900069257A /* AppDelegate.m */; };
+		A9FBAC9916E0ABE10056E281 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE19F16518A910069257A /* FirstViewController.m */; };
+		A9FBAC9A16E0ABE10056E281 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE1A616518A910069257A /* SecondViewController.m */; };
+		A9FBAC9B16E0ABE10056E281 /* WeightEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE1D016518BB00069257A /* WeightEntry.m */; };
+		A9FBAC9C16E0ABE10056E281 /* EnterWeightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE1D416518BD90069257A /* EnterWeightViewController.m */; };
+		A9FBAC9D16E0ABE10056E281 /* UnitSelectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE1D816518C7E0069257A /* UnitSelectorViewController.m */; };
+		A9FBAC9E16E0ABE10056E281 /* WeightHistory.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE1DC16518CEA0069257A /* WeightHistory.m */; };
+		A9FBAC9F16E0ABE10056E281 /* Database.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE1E016518D380069257A /* Database.m */; };
+		A9FBACA016E0ABE10056E281 /* Pesi.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE1E416518D730069257A /* Pesi.m */; };
+		A9FBACA116E0ABE10056E281 /* GraphStats.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE1EB16518FFC0069257A /* GraphStats.m */; };
+		A9FBACA216E0ABE10056E281 /* GraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE1EF1651903E0069257A /* GraphView.m */; };
+		A9FBACA316E0ABE10056E281 /* GraphViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE1F31651907D0069257A /* GraphViewViewController.m */; };
+		A9FBACA416E0ABE10056E281 /* HistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE1F7165191A50069257A /* HistoryViewController.m */; };
+		A9FBACA516E0ABE10056E281 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE1FB165191CE0069257A /* DetailViewController.m */; };
+		A9FBACA616E0ABE10056E281 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE1FF165192090069257A /* TabBarController.m */; };
+		A9FBACA716E0ABE10056E281 /* HistoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CE203165192680069257A /* HistoryCell.m */; };
+		A9FBACA816E0ABE10056E281 /* Debug.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A8E4D01675199E00D07FAB /* Debug.m */; };
+		A9FBACA916E0ABE10056E281 /* Request.m in Sources */ = {isa = PBXBuildFile; fileRef = A9AFB2E8167F66BA004D557B /* Request.m */; };
+		A9FBACAA16E0ABE10056E281 /* NSObject+Database.m in Sources */ = {isa = PBXBuildFile; fileRef = A9BE98BA1685E6E700120EF5 /* NSObject+Database.m */; };
+		A9FBACAC16E0ABE10056E281 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9BBC349166E92FE00945B03 /* iAd.framework */; };
+		A9FBACAD16E0ABE10056E281 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A93CE1E716518DC00069257A /* libsqlite3.0.dylib */; };
+		A9FBACAE16E0ABE10056E281 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A93CE18316518A900069257A /* UIKit.framework */; };
+		A9FBACAF16E0ABE10056E281 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A93CE18516518A900069257A /* Foundation.framework */; };
+		A9FBACB016E0ABE10056E281 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A93CE18716518A900069257A /* CoreGraphics.framework */; };
+		A9FBACB216E0ABE10056E281 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A93CE18C16518A900069257A /* InfoPlist.strings */; };
+		A9FBACB316E0ABE10056E281 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A93CE19516518A900069257A /* Default.png */; };
+		A9FBACB416E0ABE10056E281 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A93CE19716518A900069257A /* Default@2x.png */; };
+		A9FBACB516E0ABE10056E281 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A93CE19916518A900069257A /* Default-568h@2x.png */; };
+		A9FBACB616E0ABE10056E281 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A93CE19B16518A910069257A /* MainStoryboard.storyboard */; };
+		A9FBACB716E0ABE10056E281 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = A93CE1A116518A910069257A /* first.png */; };
+		A9FBACB816E0ABE10056E281 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A93CE1A316518A910069257A /* first@2x.png */; };
+		A9FBACB916E0ABE10056E281 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = A93CE1A816518A910069257A /* second.png */; };
+		A9FBACBA16E0ABE10056E281 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A93CE1AA16518A910069257A /* second@2x.png */; };
+		A9FBACBB16E0ABE10056E281 /* 57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = A90BF169165B80EC00EE5D65 /* 57x57.png */; };
+		A9FBACBC16E0ABE10056E281 /* 114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = A90BF16C165B80EF00EE5D65 /* 114x114.png */; };
+		A9FBACBD16E0ABE10056E281 /* graph.png in Resources */ = {isa = PBXBuildFile; fileRef = A981292E166BF9AA0024B411 /* graph.png */; };
+		A9FBACBE16E0ABE10056E281 /* graph@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A981292F166BF9AA0024B411 /* graph@2x.png */; };
+		A9FBACBF16E0ABE10056E281 /* plus.png in Resources */ = {isa = PBXBuildFile; fileRef = A9812933166BF9B40024B411 /* plus.png */; };
+		A9FBACC016E0ABE10056E281 /* plus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9812934166BF9B40024B411 /* plus@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +241,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A907516916FB68E0001C10C9 /* myWeights copy5-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "myWeights copy5-Info.plist"; path = "/Users/Marco/Documents/Xcode/myWeights/myWeights/myWeights copy5-Info.plist"; sourceTree = "<absolute>"; };
+		A907519B16FB691D001C10C9 /* zenWeight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zenWeight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A907519C16FB691D001C10C9 /* myWeights copy6-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "myWeights copy6-Info.plist"; path = "/Users/Marco/Documents/Xcode/myWeights/myWeights/myWeights copy6-Info.plist"; sourceTree = "<absolute>"; };
 		A90BF169165B80EC00EE5D65 /* 57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 57x57.png; path = ../57x57.png; sourceTree = "<group>"; };
 		A90BF16C165B80EF00EE5D65 /* 114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 114x114.png; path = ../114x114.png; sourceTree = "<group>"; };
 		A925361C166F8FF100B2F399 /* myWeights copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "myWeights copy-Info.plist"; path = "/Users/Marco/Documents/Xcode/myWeights/myWeights copy-Info.plist"; sourceTree = "<absolute>"; };
@@ -140,6 +307,10 @@
 		A981292F166BF9AA0024B411 /* graph@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "graph@2x.png"; path = "../graph@2x.png"; sourceTree = "<group>"; };
 		A9812933166BF9B40024B411 /* plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = plus.png; path = ../plus.png; sourceTree = "<group>"; };
 		A9812934166BF9B40024B411 /* plus@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "plus@2x.png"; path = "../plus@2x.png"; sourceTree = "<group>"; };
+		A984C2E316FB14C600686328 /* RequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestDelegate.h; sourceTree = "<group>"; };
+		A984C2E416FB14C600686328 /* RequestDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestDelegate.m; sourceTree = "<group>"; };
+		A984C2E716FB338D00686328 /* RequestEventDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestEventDelegate.h; sourceTree = "<group>"; };
+		A984C2E816FB338D00686328 /* RequestEventDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestEventDelegate.m; sourceTree = "<group>"; };
 		A9A8E4CF1675199E00D07FAB /* Debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Debug.h; sourceTree = "<group>"; };
 		A9A8E4D01675199E00D07FAB /* Debug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Debug.m; sourceTree = "<group>"; };
 		A9AFB2E7167F66BA004D557B /* Request.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Request.h; sourceTree = "<group>"; };
@@ -147,9 +318,27 @@
 		A9BBC349166E92FE00945B03 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 		A9BE98B91685E6E700120EF5 /* NSObject+Database.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Database.h"; sourceTree = "<group>"; };
 		A9BE98BA1685E6E700120EF5 /* NSObject+Database.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Database.m"; sourceTree = "<group>"; };
+		A9FBAC6216E0A7110056E281 /* myWeights-iPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "myWeights-iPad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9FBAC6316E0A7110056E281 /* myWeights copy2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "myWeights copy2-Info.plist"; path = "/Users/Marco/Documents/Xcode/myWeights/myWeights/myWeights copy2-Info.plist"; sourceTree = "<absolute>"; };
+		A9FBAC9316E0A74C0056E281 /* myWeights copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "myWeights copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9FBAC9416E0A74D0056E281 /* myWeights copy3-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "myWeights copy3-Info.plist"; path = "/Users/Marco/Documents/Xcode/myWeights/myWeights/myWeights copy3-Info.plist"; sourceTree = "<absolute>"; };
+		A9FBACC416E0ABE10056E281 /* myWeights copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "myWeights copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9FBACC516E0ABE10056E281 /* myWeights copy4-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "myWeights copy4-Info.plist"; path = "/Users/Marco/Documents/Xcode/myWeights/myWeights/myWeights copy4-Info.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		A907518216FB691D001C10C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A907518316FB691D001C10C9 /* iAd.framework in Frameworks */,
+				A907518416FB691D001C10C9 /* libsqlite3.0.dylib in Frameworks */,
+				A907518516FB691D001C10C9 /* UIKit.framework in Frameworks */,
+				A907518616FB691D001C10C9 /* Foundation.framework in Frameworks */,
+				A907518716FB691D001C10C9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A93CE17C16518A900069257A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -169,6 +358,42 @@
 				A93CE1B316518A910069257A /* SenTestingKit.framework in Frameworks */,
 				A93CE1B416518A910069257A /* UIKit.framework in Frameworks */,
 				A93CE1B516518A910069257A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9FBAC4916E0A7110056E281 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9FBAC4A16E0A7110056E281 /* iAd.framework in Frameworks */,
+				A9FBAC4B16E0A7110056E281 /* libsqlite3.0.dylib in Frameworks */,
+				A9FBAC4C16E0A7110056E281 /* UIKit.framework in Frameworks */,
+				A9FBAC4D16E0A7110056E281 /* Foundation.framework in Frameworks */,
+				A9FBAC4E16E0A7110056E281 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9FBAC7A16E0A74C0056E281 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9FBAC7B16E0A74C0056E281 /* iAd.framework in Frameworks */,
+				A9FBAC7C16E0A74C0056E281 /* libsqlite3.0.dylib in Frameworks */,
+				A9FBAC7D16E0A74C0056E281 /* UIKit.framework in Frameworks */,
+				A9FBAC7E16E0A74C0056E281 /* Foundation.framework in Frameworks */,
+				A9FBAC7F16E0A74C0056E281 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9FBACAB16E0ABE10056E281 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9FBACAC16E0ABE10056E281 /* iAd.framework in Frameworks */,
+				A9FBACAD16E0ABE10056E281 /* libsqlite3.0.dylib in Frameworks */,
+				A9FBACAE16E0ABE10056E281 /* UIKit.framework in Frameworks */,
+				A9FBACAF16E0ABE10056E281 /* Foundation.framework in Frameworks */,
+				A9FBACB016E0ABE10056E281 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,6 +417,11 @@
 				A93CE18216518A900069257A /* Frameworks */,
 				A93CE18016518A900069257A /* Products */,
 				A925361C166F8FF100B2F399 /* myWeights copy-Info.plist */,
+				A9FBAC6316E0A7110056E281 /* myWeights copy2-Info.plist */,
+				A9FBAC9416E0A74D0056E281 /* myWeights copy3-Info.plist */,
+				A9FBACC516E0ABE10056E281 /* myWeights copy4-Info.plist */,
+				A907516916FB68E0001C10C9 /* myWeights copy5-Info.plist */,
+				A907519C16FB691D001C10C9 /* myWeights copy6-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -200,6 +430,10 @@
 			children = (
 				A93CE17F16518A900069257A /* myWeights.app */,
 				A93CE1B116518A910069257A /* myWeightsTests.octest */,
+				A9FBAC6216E0A7110056E281 /* myWeights-iPad.app */,
+				A9FBAC9316E0A74C0056E281 /* myWeights copy.app */,
+				A9FBACC416E0ABE10056E281 /* myWeights copy.app */,
+				A907519B16FB691D001C10C9 /* zenWeight.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -318,6 +552,17 @@
 			name = Views;
 			sourceTree = "<group>";
 		};
+		A984C2E616FB337800686328 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				A984C2E316FB14C600686328 /* RequestDelegate.h */,
+				A984C2E416FB14C600686328 /* RequestDelegate.m */,
+				A984C2E716FB338D00686328 /* RequestEventDelegate.h */,
+				A984C2E816FB338D00686328 /* RequestEventDelegate.m */,
+			);
+			name = Delegate;
+			sourceTree = "<group>";
+		};
 		A9A8E4C71674D90600D07FAB /* Image */ = {
 			isa = PBXGroup;
 			children = (
@@ -343,6 +588,7 @@
 		A9AFB2E5167F6698004D557B /* Request */ = {
 			isa = PBXGroup;
 			children = (
+				A984C2E616FB337800686328 /* Delegate */,
 				A9AFB2E7167F66BA004D557B /* Request.h */,
 				A9AFB2E8167F66BA004D557B /* Request.m */,
 			);
@@ -371,6 +617,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		A907516A16FB691D001C10C9 /* zenWeight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A907519816FB691D001C10C9 /* Build configuration list for PBXNativeTarget "zenWeight" */;
+			buildPhases = (
+				A907516B16FB691D001C10C9 /* Sources */,
+				A907518216FB691D001C10C9 /* Frameworks */,
+				A907518816FB691D001C10C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zenWeight;
+			productName = myWeights;
+			productReference = A907519B16FB691D001C10C9 /* zenWeight.app */;
+			productType = "com.apple.product-type.application";
+		};
 		A93CE17E16518A900069257A /* myWeights */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A93CE1C316518A910069257A /* Build configuration list for PBXNativeTarget "myWeights" */;
@@ -407,6 +670,57 @@
 			productReference = A93CE1B116518A910069257A /* myWeightsTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
+		A9FBAC3316E0A7110056E281 /* myWeights-iPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9FBAC5F16E0A7110056E281 /* Build configuration list for PBXNativeTarget "myWeights-iPad" */;
+			buildPhases = (
+				A9FBAC3416E0A7110056E281 /* Sources */,
+				A9FBAC4916E0A7110056E281 /* Frameworks */,
+				A9FBAC4F16E0A7110056E281 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "myWeights-iPad";
+			productName = myWeights;
+			productReference = A9FBAC6216E0A7110056E281 /* myWeights-iPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A9FBAC6416E0A74C0056E281 /* myGlicemia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9FBAC9016E0A74C0056E281 /* Build configuration list for PBXNativeTarget "myGlicemia" */;
+			buildPhases = (
+				A9FBAC6516E0A74C0056E281 /* Sources */,
+				A9FBAC7A16E0A74C0056E281 /* Frameworks */,
+				A9FBAC8016E0A74C0056E281 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = myGlicemia;
+			productName = myWeights;
+			productReference = A9FBAC9316E0A74C0056E281 /* myWeights copy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A9FBAC9516E0ABE10056E281 /* myWeight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9FBACC116E0ABE10056E281 /* Build configuration list for PBXNativeTarget "myWeight" */;
+			buildPhases = (
+				A9FBAC9616E0ABE10056E281 /* Sources */,
+				A9FBACAB16E0ABE10056E281 /* Frameworks */,
+				A9FBACB116E0ABE10056E281 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = myWeight;
+			productName = myWeights;
+			productReference = A9FBACC416E0ABE10056E281 /* myWeights copy.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -431,11 +745,37 @@
 			targets = (
 				A93CE17E16518A900069257A /* myWeights */,
 				A93CE1B016518A910069257A /* myWeightsTests */,
+				A9FBAC3316E0A7110056E281 /* myWeights-iPad */,
+				A9FBAC6416E0A74C0056E281 /* myGlicemia */,
+				A9FBAC9516E0ABE10056E281 /* myWeight */,
+				A907516A16FB691D001C10C9 /* zenWeight */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		A907518816FB691D001C10C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A907518916FB691D001C10C9 /* InfoPlist.strings in Resources */,
+				A907518A16FB691D001C10C9 /* Default.png in Resources */,
+				A907518B16FB691D001C10C9 /* Default@2x.png in Resources */,
+				A907518C16FB691D001C10C9 /* Default-568h@2x.png in Resources */,
+				A907518D16FB691D001C10C9 /* MainStoryboard.storyboard in Resources */,
+				A907518E16FB691D001C10C9 /* first.png in Resources */,
+				A907518F16FB691D001C10C9 /* first@2x.png in Resources */,
+				A907519016FB691D001C10C9 /* second.png in Resources */,
+				A907519116FB691D001C10C9 /* second@2x.png in Resources */,
+				A907519216FB691D001C10C9 /* 57x57.png in Resources */,
+				A907519316FB691D001C10C9 /* 114x114.png in Resources */,
+				A907519416FB691D001C10C9 /* graph.png in Resources */,
+				A907519516FB691D001C10C9 /* graph@2x.png in Resources */,
+				A907519616FB691D001C10C9 /* plus.png in Resources */,
+				A907519716FB691D001C10C9 /* plus@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A93CE17D16518A900069257A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -466,6 +806,72 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A9FBAC4F16E0A7110056E281 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9FBAC5016E0A7110056E281 /* InfoPlist.strings in Resources */,
+				A9FBAC5116E0A7110056E281 /* Default.png in Resources */,
+				A9FBAC5216E0A7110056E281 /* Default@2x.png in Resources */,
+				A9FBAC5316E0A7110056E281 /* Default-568h@2x.png in Resources */,
+				A9FBAC5416E0A7110056E281 /* MainStoryboard.storyboard in Resources */,
+				A9FBAC5516E0A7110056E281 /* first.png in Resources */,
+				A9FBAC5616E0A7110056E281 /* first@2x.png in Resources */,
+				A9FBAC5716E0A7110056E281 /* second.png in Resources */,
+				A9FBAC5816E0A7110056E281 /* second@2x.png in Resources */,
+				A9FBAC5916E0A7110056E281 /* 57x57.png in Resources */,
+				A9FBAC5A16E0A7110056E281 /* 114x114.png in Resources */,
+				A9FBAC5B16E0A7110056E281 /* graph.png in Resources */,
+				A9FBAC5C16E0A7110056E281 /* graph@2x.png in Resources */,
+				A9FBAC5D16E0A7110056E281 /* plus.png in Resources */,
+				A9FBAC5E16E0A7110056E281 /* plus@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9FBAC8016E0A74C0056E281 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9FBAC8116E0A74C0056E281 /* InfoPlist.strings in Resources */,
+				A9FBAC8216E0A74C0056E281 /* Default.png in Resources */,
+				A9FBAC8316E0A74C0056E281 /* Default@2x.png in Resources */,
+				A9FBAC8416E0A74C0056E281 /* Default-568h@2x.png in Resources */,
+				A9FBAC8516E0A74C0056E281 /* MainStoryboard.storyboard in Resources */,
+				A9FBAC8616E0A74C0056E281 /* first.png in Resources */,
+				A9FBAC8716E0A74C0056E281 /* first@2x.png in Resources */,
+				A9FBAC8816E0A74C0056E281 /* second.png in Resources */,
+				A9FBAC8916E0A74C0056E281 /* second@2x.png in Resources */,
+				A9FBAC8A16E0A74C0056E281 /* 57x57.png in Resources */,
+				A9FBAC8B16E0A74C0056E281 /* 114x114.png in Resources */,
+				A9FBAC8C16E0A74C0056E281 /* graph.png in Resources */,
+				A9FBAC8D16E0A74C0056E281 /* graph@2x.png in Resources */,
+				A9FBAC8E16E0A74C0056E281 /* plus.png in Resources */,
+				A9FBAC8F16E0A74C0056E281 /* plus@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9FBACB116E0ABE10056E281 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9FBACB216E0ABE10056E281 /* InfoPlist.strings in Resources */,
+				A9FBACB316E0ABE10056E281 /* Default.png in Resources */,
+				A9FBACB416E0ABE10056E281 /* Default@2x.png in Resources */,
+				A9FBACB516E0ABE10056E281 /* Default-568h@2x.png in Resources */,
+				A9FBACB616E0ABE10056E281 /* MainStoryboard.storyboard in Resources */,
+				A9FBACB716E0ABE10056E281 /* first.png in Resources */,
+				A9FBACB816E0ABE10056E281 /* first@2x.png in Resources */,
+				A9FBACB916E0ABE10056E281 /* second.png in Resources */,
+				A9FBACBA16E0ABE10056E281 /* second@2x.png in Resources */,
+				A9FBACBB16E0ABE10056E281 /* 57x57.png in Resources */,
+				A9FBACBC16E0ABE10056E281 /* 114x114.png in Resources */,
+				A9FBACBD16E0ABE10056E281 /* graph.png in Resources */,
+				A9FBACBE16E0ABE10056E281 /* graph@2x.png in Resources */,
+				A9FBACBF16E0ABE10056E281 /* plus.png in Resources */,
+				A9FBACC016E0ABE10056E281 /* plus@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
@@ -485,6 +891,35 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		A907516B16FB691D001C10C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A907516C16FB691D001C10C9 /* main.m in Sources */,
+				A907516D16FB691D001C10C9 /* AppDelegate.m in Sources */,
+				A907516E16FB691D001C10C9 /* FirstViewController.m in Sources */,
+				A907516F16FB691D001C10C9 /* SecondViewController.m in Sources */,
+				A907517016FB691D001C10C9 /* WeightEntry.m in Sources */,
+				A907517116FB691D001C10C9 /* EnterWeightViewController.m in Sources */,
+				A907517216FB691D001C10C9 /* UnitSelectorViewController.m in Sources */,
+				A907517316FB691D001C10C9 /* WeightHistory.m in Sources */,
+				A907517416FB691D001C10C9 /* Database.m in Sources */,
+				A907517516FB691D001C10C9 /* Pesi.m in Sources */,
+				A907517616FB691D001C10C9 /* GraphStats.m in Sources */,
+				A907517716FB691D001C10C9 /* GraphView.m in Sources */,
+				A907517816FB691D001C10C9 /* GraphViewViewController.m in Sources */,
+				A907517916FB691D001C10C9 /* HistoryViewController.m in Sources */,
+				A907517A16FB691D001C10C9 /* DetailViewController.m in Sources */,
+				A907517B16FB691D001C10C9 /* TabBarController.m in Sources */,
+				A907517C16FB691D001C10C9 /* HistoryCell.m in Sources */,
+				A907517D16FB691D001C10C9 /* Debug.m in Sources */,
+				A907517E16FB691D001C10C9 /* Request.m in Sources */,
+				A907517F16FB691D001C10C9 /* NSObject+Database.m in Sources */,
+				A907518016FB691D001C10C9 /* RequestDelegate.m in Sources */,
+				A907518116FB691D001C10C9 /* RequestEventDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A93CE17B16518A900069257A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -509,6 +944,8 @@
 				A9A8E4D11675199E00D07FAB /* Debug.m in Sources */,
 				A9AFB2E9167F66BA004D557B /* Request.m in Sources */,
 				A9BE98BB1685E6E700120EF5 /* NSObject+Database.m in Sources */,
+				A984C2E516FB14C600686328 /* RequestDelegate.m in Sources */,
+				A984C2E916FB338D00686328 /* RequestEventDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -529,6 +966,87 @@
 				A93CE1FD165191CE0069257A /* DetailViewController.m in Sources */,
 				A93CE201165192090069257A /* TabBarController.m in Sources */,
 				A93CE205165192690069257A /* HistoryCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9FBAC3416E0A7110056E281 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9FBAC3516E0A7110056E281 /* main.m in Sources */,
+				A9FBAC3616E0A7110056E281 /* AppDelegate.m in Sources */,
+				A9FBAC3716E0A7110056E281 /* FirstViewController.m in Sources */,
+				A9FBAC3816E0A7110056E281 /* SecondViewController.m in Sources */,
+				A9FBAC3916E0A7110056E281 /* WeightEntry.m in Sources */,
+				A9FBAC3A16E0A7110056E281 /* EnterWeightViewController.m in Sources */,
+				A9FBAC3B16E0A7110056E281 /* UnitSelectorViewController.m in Sources */,
+				A9FBAC3C16E0A7110056E281 /* WeightHistory.m in Sources */,
+				A9FBAC3D16E0A7110056E281 /* Database.m in Sources */,
+				A9FBAC3E16E0A7110056E281 /* Pesi.m in Sources */,
+				A9FBAC3F16E0A7110056E281 /* GraphStats.m in Sources */,
+				A9FBAC4016E0A7110056E281 /* GraphView.m in Sources */,
+				A9FBAC4116E0A7110056E281 /* GraphViewViewController.m in Sources */,
+				A9FBAC4216E0A7110056E281 /* HistoryViewController.m in Sources */,
+				A9FBAC4316E0A7110056E281 /* DetailViewController.m in Sources */,
+				A9FBAC4416E0A7110056E281 /* TabBarController.m in Sources */,
+				A9FBAC4516E0A7110056E281 /* HistoryCell.m in Sources */,
+				A9FBAC4616E0A7110056E281 /* Debug.m in Sources */,
+				A9FBAC4716E0A7110056E281 /* Request.m in Sources */,
+				A9FBAC4816E0A7110056E281 /* NSObject+Database.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9FBAC6516E0A74C0056E281 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9FBAC6616E0A74C0056E281 /* main.m in Sources */,
+				A9FBAC6716E0A74C0056E281 /* AppDelegate.m in Sources */,
+				A9FBAC6816E0A74C0056E281 /* FirstViewController.m in Sources */,
+				A9FBAC6916E0A74C0056E281 /* SecondViewController.m in Sources */,
+				A9FBAC6A16E0A74C0056E281 /* WeightEntry.m in Sources */,
+				A9FBAC6B16E0A74C0056E281 /* EnterWeightViewController.m in Sources */,
+				A9FBAC6C16E0A74C0056E281 /* UnitSelectorViewController.m in Sources */,
+				A9FBAC6D16E0A74C0056E281 /* WeightHistory.m in Sources */,
+				A9FBAC6E16E0A74C0056E281 /* Database.m in Sources */,
+				A9FBAC6F16E0A74C0056E281 /* Pesi.m in Sources */,
+				A9FBAC7016E0A74C0056E281 /* GraphStats.m in Sources */,
+				A9FBAC7116E0A74C0056E281 /* GraphView.m in Sources */,
+				A9FBAC7216E0A74C0056E281 /* GraphViewViewController.m in Sources */,
+				A9FBAC7316E0A74C0056E281 /* HistoryViewController.m in Sources */,
+				A9FBAC7416E0A74C0056E281 /* DetailViewController.m in Sources */,
+				A9FBAC7516E0A74C0056E281 /* TabBarController.m in Sources */,
+				A9FBAC7616E0A74C0056E281 /* HistoryCell.m in Sources */,
+				A9FBAC7716E0A74C0056E281 /* Debug.m in Sources */,
+				A9FBAC7816E0A74C0056E281 /* Request.m in Sources */,
+				A9FBAC7916E0A74C0056E281 /* NSObject+Database.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9FBAC9616E0ABE10056E281 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9FBAC9716E0ABE10056E281 /* main.m in Sources */,
+				A9FBAC9816E0ABE10056E281 /* AppDelegate.m in Sources */,
+				A9FBAC9916E0ABE10056E281 /* FirstViewController.m in Sources */,
+				A9FBAC9A16E0ABE10056E281 /* SecondViewController.m in Sources */,
+				A9FBAC9B16E0ABE10056E281 /* WeightEntry.m in Sources */,
+				A9FBAC9C16E0ABE10056E281 /* EnterWeightViewController.m in Sources */,
+				A9FBAC9D16E0ABE10056E281 /* UnitSelectorViewController.m in Sources */,
+				A9FBAC9E16E0ABE10056E281 /* WeightHistory.m in Sources */,
+				A9FBAC9F16E0ABE10056E281 /* Database.m in Sources */,
+				A9FBACA016E0ABE10056E281 /* Pesi.m in Sources */,
+				A9FBACA116E0ABE10056E281 /* GraphStats.m in Sources */,
+				A9FBACA216E0ABE10056E281 /* GraphView.m in Sources */,
+				A9FBACA316E0ABE10056E281 /* GraphViewViewController.m in Sources */,
+				A9FBACA416E0ABE10056E281 /* HistoryViewController.m in Sources */,
+				A9FBACA516E0ABE10056E281 /* DetailViewController.m in Sources */,
+				A9FBACA616E0ABE10056E281 /* TabBarController.m in Sources */,
+				A9FBACA716E0ABE10056E281 /* HistoryCell.m in Sources */,
+				A9FBACA816E0ABE10056E281 /* Debug.m in Sources */,
+				A9FBACA916E0ABE10056E281 /* Request.m in Sources */,
+				A9FBACAA16E0ABE10056E281 /* NSObject+Database.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -574,6 +1092,30 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		A907519916FB691D001C10C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "myWeights/myWeights-Prefix.pch";
+				INFOPLIST_FILE = "myWeights copy6-Info.plist";
+				PRODUCT_NAME = zenWeight;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A907519A16FB691D001C10C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "myWeights/myWeights-Prefix.pch";
+				INFOPLIST_FILE = "myWeights copy6-Info.plist";
+				PRODUCT_NAME = zenWeight;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 		A93CE1C116518A910069257A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -682,9 +1224,92 @@
 			};
 			name = Release;
 		};
+		A9FBAC6016E0A7110056E281 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "myWeights/myWeights-Prefix.pch";
+				INFOPLIST_FILE = "myWeights copy2-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "myWeights-iPad";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A9FBAC6116E0A7110056E281 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "myWeights/myWeights-Prefix.pch";
+				INFOPLIST_FILE = "myWeights copy2-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "myWeights-iPad";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A9FBAC9116E0A74C0056E281 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "myWeights/myWeights-Prefix.pch";
+				INFOPLIST_FILE = "myWeights copy3-Info.plist";
+				PRODUCT_NAME = "myWeights copy";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A9FBAC9216E0A74C0056E281 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "myWeights/myWeights-Prefix.pch";
+				INFOPLIST_FILE = "myWeights copy3-Info.plist";
+				PRODUCT_NAME = "myWeights copy";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A9FBACC216E0ABE10056E281 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "myWeights/myWeights-Prefix.pch";
+				INFOPLIST_FILE = "myWeights copy4-Info.plist";
+				PRODUCT_NAME = "myWeights copy";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A9FBACC316E0ABE10056E281 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "myWeights/myWeights-Prefix.pch";
+				INFOPLIST_FILE = "myWeights copy4-Info.plist";
+				PRODUCT_NAME = "myWeights copy";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		A907519816FB691D001C10C9 /* Build configuration list for PBXNativeTarget "zenWeight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A907519916FB691D001C10C9 /* Debug */,
+				A907519A16FB691D001C10C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A93CE17916518A900069257A /* Build configuration list for PBXProject "myWeights" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -708,6 +1333,33 @@
 			buildConfigurations = (
 				A93CE1C716518A910069257A /* Debug */,
 				A93CE1C816518A910069257A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9FBAC5F16E0A7110056E281 /* Build configuration list for PBXNativeTarget "myWeights-iPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9FBAC6016E0A7110056E281 /* Debug */,
+				A9FBAC6116E0A7110056E281 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9FBAC9016E0A74C0056E281 /* Build configuration list for PBXNativeTarget "myGlicemia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9FBAC9116E0A74C0056E281 /* Debug */,
+				A9FBAC9216E0A74C0056E281 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9FBACC116E0ABE10056E281 /* Build configuration list for PBXNativeTarget "myWeight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9FBACC216E0ABE10056E281 /* Debug */,
+				A9FBACC316E0ABE10056E281 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

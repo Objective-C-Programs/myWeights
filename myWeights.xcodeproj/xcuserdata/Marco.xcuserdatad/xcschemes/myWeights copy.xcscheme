@@ -14,8 +14,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A9253560166F8F5400B2F399"
-               BuildableName = "myWeights copy.app"
+               BlueprintIdentifier = "A9FBAC3316E0A7110056E281"
+               BuildableName = "myWeights-iPad.app"
                BlueprintName = "myWeights-iPad"
                ReferencedContainer = "container:myWeights.xcodeproj">
             </BuildableReference>
@@ -32,8 +32,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A9253560166F8F5400B2F399"
-            BuildableName = "myWeights copy.app"
+            BlueprintIdentifier = "A9FBAC3316E0A7110056E281"
+            BuildableName = "myWeights-iPad.app"
             BlueprintName = "myWeights-iPad"
             ReferencedContainer = "container:myWeights.xcodeproj">
          </BuildableReference>
@@ -51,8 +51,8 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A9253560166F8F5400B2F399"
-            BuildableName = "myWeights copy.app"
+            BlueprintIdentifier = "A9FBAC3316E0A7110056E281"
+            BuildableName = "myWeights-iPad.app"
             BlueprintName = "myWeights-iPad"
             ReferencedContainer = "container:myWeights.xcodeproj">
          </BuildableReference>
@@ -69,8 +69,8 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A9253560166F8F5400B2F399"
-            BuildableName = "myWeights copy.app"
+            BlueprintIdentifier = "A9FBAC3316E0A7110056E281"
+            BuildableName = "myWeights-iPad.app"
             BlueprintName = "myWeights-iPad"
             ReferencedContainer = "container:myWeights.xcodeproj">
          </BuildableReference>

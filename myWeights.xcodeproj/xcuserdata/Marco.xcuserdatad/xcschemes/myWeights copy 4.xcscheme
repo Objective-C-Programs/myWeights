@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A92535EE166F8FF100B2F399"
-               BuildableName = "myWeights copy.app"
-               BlueprintName = "myWeights copy"
+               BlueprintIdentifier = "A9FBAC3316E0A7110056E281"
+               BuildableName = "myWeights-iPad.app"
+               BlueprintName = "myWeights-iPad"
                ReferencedContainer = "container:myWeights.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,9 +32,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A92535EE166F8FF100B2F399"
-            BuildableName = "myWeights copy.app"
-            BlueprintName = "myWeights copy"
+            BlueprintIdentifier = "A9FBAC3316E0A7110056E281"
+            BuildableName = "myWeights-iPad.app"
+            BlueprintName = "myWeights-iPad"
             ReferencedContainer = "container:myWeights.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -51,9 +51,9 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A92535EE166F8FF100B2F399"
-            BuildableName = "myWeights copy.app"
-            BlueprintName = "myWeights copy"
+            BlueprintIdentifier = "A9FBAC3316E0A7110056E281"
+            BuildableName = "myWeights-iPad.app"
+            BlueprintName = "myWeights-iPad"
             ReferencedContainer = "container:myWeights.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -69,9 +69,9 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A92535EE166F8FF100B2F399"
-            BuildableName = "myWeights copy.app"
-            BlueprintName = "myWeights copy"
+            BlueprintIdentifier = "A9FBAC3316E0A7110056E281"
+            BuildableName = "myWeights-iPad.app"
+            BlueprintName = "myWeights-iPad"
             ReferencedContainer = "container:myWeights.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

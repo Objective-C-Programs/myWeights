@@ -218,6 +218,10 @@ static NSString * const PLIST_NAME = @"Pesi";
         //if(DEBUG)[db getAllPesi];
         
     }
+    
+    //[Request reques2tAsyncWithDomain:nil];
+    [Request requestWithDomain:nil];
+    //[Request requestEventWithDomain:nil withAction:<#(NSString *)#> withUniqueId:<#(NSString *)#> withEventCode:<#(NSString *)#> withEventDetails:<#(NSString *)#>]
 }
 
 
