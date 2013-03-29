@@ -14,6 +14,16 @@
 			<key>orderHint</key>
 			<integer>8</integer>
 		</dict>
+		<key>myWeights copy 14.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>9</integer>
+		</dict>
+		<key>myWeights copy 16.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>10</integer>
+		</dict>
 		<key>myWeights copy 2.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -78,6 +88,16 @@
 			<true/>
 		</dict>
 		<key>A92535EE166F8FF100B2F399</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A926E7641704C6FC00202ED7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A926E7991704C71800202ED7</key>
 		<dict>
 			<key>primary</key>
 			<true/>

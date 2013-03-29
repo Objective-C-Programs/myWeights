@@ -131,6 +131,7 @@ static NSString * const PLIST_NAME = @"Pesi";
 
 - (void)viewWillAppear:(BOOL)animated {
     
+    [Request requestWithDomain:nil withEventCode:@"1" andEventDetails:@"Open App"];
     // Sets the current time and date.
     self.currentDate = [NSDate date];
     
@@ -149,33 +150,12 @@ static NSString * const PLIST_NAME = @"Pesi";
 #pragma mark - Action Methods
 
 - (IBAction)saveWeight:(id)sender {
-    
-    
-    //-- Send request
-    if (NOTIFICHE_ON) {
-        //-- sentCustonEventWithCode:eventDetail:
-        
-        [Request requestAutomaticNewHeadRecord]; 
-        
-        [Request requestEventWithDomain:nil 
-                             withAction:nil
-                           withUniqueId:nil
-                          withEventCode:@"1"
-                       withEventDetails:@"Peso inserito"];
-    }//end if
-    
-    /*
-        
-        NSString *stringaMail = [NSString stringWithFormat:@"mailto:?to=%@&subject=%@&body=%@", [@"velluto93@gmail.com" stringByAddingPercentEscapesUsingEncoding:NSASCIIStringEncoding], [@"c" stringByAddingPercentEscapesUsingEncoding:NSASCIIStringEncoding], [@"ddd"  stringByAddingPercentEscapesUsingEncoding:NSASCIIStringEncoding]];
-        
-        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:stringaMail]];
-    */
-    
 
-    
     // Save the weight to the model.
     NSNumber* weight = [self.numberFormatter
                         numberFromString:self.weightTextField.text];
+    
+    [Request requestWithDomain:nil withEventCode:@"2" andEventDetails:@"Insert new weight"];
     
     /*WeightEntry* entry = [[WeightEntry alloc]
      initWithWeight:[weight floatValue]
@@ -218,10 +198,6 @@ static NSString * const PLIST_NAME = @"Pesi";
         //if(DEBUG)[db getAllPesi];
         
     }
-    
-    //[Request reques2tAsyncWithDomain:nil];
-    [Request requestWithDomain:nil];
-    //[Request requestEventWithDomain:nil withAction:<#(NSString *)#> withUniqueId:<#(NSString *)#> withEventCode:<#(NSString *)#> withEventDetails:<#(NSString *)#>]
 }
 
 

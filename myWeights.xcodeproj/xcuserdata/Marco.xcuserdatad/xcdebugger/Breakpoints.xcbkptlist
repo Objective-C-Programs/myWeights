@@ -8,37 +8,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "myWeights/EnterWeightViewController.m"
-         timestampString = "377820725.643459"
+         timestampString = "386183607.521204"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "173"
-         endingLineNumber = "173"
-         landmarkName = "-saveWeight:"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "No"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         filePath = "myWeights/EnterWeightViewController.m"
-         timestampString = "377820725.643459"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "160"
-         endingLineNumber = "160"
-         landmarkName = "-saveWeight:"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "No"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         filePath = "myWeights/EnterWeightViewController.m"
-         timestampString = "385583183.748686"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "308"
-         endingLineNumber = "308"
+         startingLineNumber = "284"
+         endingLineNumber = "284"
          landmarkName = "-request"
          landmarkType = "5">
       </FileBreakpoint>
@@ -47,11 +21,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "myWeights/EnterWeightViewController.m"
-         timestampString = "385583183.748686"
+         timestampString = "386183607.521204"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "329"
-         endingLineNumber = "329"
+         startingLineNumber = "305"
+         endingLineNumber = "305"
          landmarkName = "-request"
          landmarkType = "5">
       </FileBreakpoint>
@@ -60,11 +34,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "myWeights/EnterWeightViewController.m"
-         timestampString = "385583183.748686"
+         timestampString = "386183607.521204"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "333"
-         endingLineNumber = "333"
+         startingLineNumber = "309"
+         endingLineNumber = "309"
          landmarkName = "-request"
          landmarkType = "5">
       </FileBreakpoint>
@@ -73,11 +47,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "myWeights/EnterWeightViewController.m"
-         timestampString = "385583183.748686"
+         timestampString = "386183607.521204"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "337"
-         endingLineNumber = "337"
+         startingLineNumber = "313"
+         endingLineNumber = "313"
          landmarkName = "-request"
          landmarkType = "5">
       </FileBreakpoint>
@@ -125,11 +99,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "myWeights/HistoryViewController.m"
-         timestampString = "378287198.940268"
+         timestampString = "386183607.521204"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "368"
-         endingLineNumber = "368"
+         startingLineNumber = "353"
+         endingLineNumber = "353"
          landmarkName = "@implementation HistoryViewController"
          landmarkType = "3">
       </FileBreakpoint>
@@ -138,11 +112,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "myWeights/HistoryViewController.m"
-         timestampString = "378287198.940268"
+         timestampString = "386183607.521204"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "369"
-         endingLineNumber = "369"
+         startingLineNumber = "354"
+         endingLineNumber = "354"
          landmarkName = "-reloadTableData"
          landmarkType = "5">
       </FileBreakpoint>
@@ -164,11 +138,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "myWeights/HistoryViewController.m"
-         timestampString = "378232376.753289"
+         timestampString = "386183607.521204"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "105"
-         endingLineNumber = "105"
+         startingLineNumber = "108"
+         endingLineNumber = "108"
          landmarkName = "-viewWillAppear:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -177,11 +151,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "myWeights/HistoryViewController.m"
-         timestampString = "378232381.598192"
+         timestampString = "386183607.521204"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "116"
-         endingLineNumber = "116"
+         startingLineNumber = "111"
+         endingLineNumber = "111"
          landmarkName = "-viewWillAppear:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -190,11 +164,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "myWeights/HistoryViewController.m"
-         timestampString = "378232413.210819"
+         timestampString = "386183607.521204"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "121"
-         endingLineNumber = "121"
+         startingLineNumber = "115"
+         endingLineNumber = "115"
          landmarkName = "-viewWillAppear:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -203,11 +177,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "myWeights/EnterWeightViewController.m"
-         timestampString = "378232861.720666"
+         timestampString = "386183607.521204"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "194"
-         endingLineNumber = "194"
+         startingLineNumber = "174"
+         endingLineNumber = "174"
          landmarkName = "-saveWeight:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -216,11 +190,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "myWeights/EnterWeightViewController.m"
-         timestampString = "378232862.142957"
+         timestampString = "386183607.521204"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "195"
-         endingLineNumber = "195"
+         startingLineNumber = "175"
+         endingLineNumber = "175"
          landmarkName = "-saveWeight:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -229,11 +203,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "myWeights/EnterWeightViewController.m"
-         timestampString = "378232862.54047"
+         timestampString = "386183607.521204"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "196"
-         endingLineNumber = "196"
+         startingLineNumber = "176"
+         endingLineNumber = "176"
          landmarkName = "-saveWeight:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -242,11 +216,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "myWeights/EnterWeightViewController.m"
-         timestampString = "378232862.916517"
+         timestampString = "386183607.521204"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "197"
-         endingLineNumber = "197"
+         startingLineNumber = "177"
+         endingLineNumber = "177"
          landmarkName = "-saveWeight:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -287,19 +261,6 @@
          startingLineNumber = "332"
          endingLineNumber = "332"
          landmarkName = "+requestAutomaticNewHeadRecord"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "No"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         filePath = "myWeights/EnterWeightViewController.m"
-         timestampString = "385583183.748686"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "222"
-         endingLineNumber = "222"
-         landmarkName = "-saveWeight:"
          landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint

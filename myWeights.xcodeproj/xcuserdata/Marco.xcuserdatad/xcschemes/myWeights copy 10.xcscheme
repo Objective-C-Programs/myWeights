@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0450"
+   LastUpgradeVersion = "0460"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A93CE17E16518A900069257A"
-               BuildableName = "myWeight.app"
-               BlueprintName = "myWeight"
+               BlueprintIdentifier = "A907516A16FB691D001C10C9"
+               BuildableName = "zenWeight.app"
+               BlueprintName = "zenWeight"
                ReferencedContainer = "container:myWeights.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,23 +28,13 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A93CE1B016518A910069257A"
-               BuildableName = "myWeightsTests.octest"
-               BlueprintName = "myWeightsTests"
-               ReferencedContainer = "container:myWeights.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A93CE17E16518A900069257A"
-            BuildableName = "myWeight.app"
-            BlueprintName = "myWeight"
+            BlueprintIdentifier = "A907516A16FB691D001C10C9"
+            BuildableName = "zenWeight.app"
+            BlueprintName = "zenWeight"
             ReferencedContainer = "container:myWeights.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -61,9 +51,9 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A93CE17E16518A900069257A"
-            BuildableName = "myWeight.app"
-            BlueprintName = "myWeight"
+            BlueprintIdentifier = "A907516A16FB691D001C10C9"
+            BuildableName = "zenWeight.app"
+            BlueprintName = "zenWeight"
             ReferencedContainer = "container:myWeights.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -79,9 +69,9 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A93CE17E16518A900069257A"
-            BuildableName = "myWeight.app"
-            BlueprintName = "myWeight"
+            BlueprintIdentifier = "A907516A16FB691D001C10C9"
+            BuildableName = "zenWeight.app"
+            BlueprintName = "zenWeight"
             ReferencedContainer = "container:myWeights.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

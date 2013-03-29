@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2844" systemVersion="12C60" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="4">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12D78" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="4">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1930"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
     <scenes>
         <!--Tab Bar Controller-->
@@ -49,29 +49,17 @@
                                     <action selector="saveWeight:" destination="7Hi-oN-sfX" eventType="editingDidEndOnExit" id="4vE-IX-mn0"/>
                                 </connections>
                             </textField>
-                            <adBannerView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" translatesAutoresizingMaskIntoConstraints="NO" id="5UF-9O-3P4">
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="IHr-9J-xhK"/>
-                                    <constraint firstAttribute="width" constant="320" id="QSr-9N-pJD"/>
-                                </constraints>
-                                <requiredContentSizeIdentifiers>
-                                    <string>ADBannerContentSizeLandscape</string>
-                                    <string>ADBannerContentSizePortrait</string>
-                                </requiredContentSizeIdentifiers>
-                            </adBannerView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
                         <constraints>
-                            <constraint firstItem="5UF-9O-3P4" firstAttribute="leading" secondItem="fQb-kC-dZ7" secondAttribute="leading" constant="-1" id="6L2-jV-Zdd"/>
                             <constraint firstItem="z5c-uh-wy7" firstAttribute="leading" secondItem="iIO-M1-2AH" secondAttribute="leading" type="default" id="6gc-at-cAf"/>
                             <constraint firstItem="z5c-uh-wy7" firstAttribute="centerX" secondItem="fQb-kC-dZ7" secondAttribute="centerX" type="default" id="A1C-7m-rtx"/>
                             <constraint firstItem="iIO-M1-2AH" firstAttribute="trailing" secondItem="z5c-uh-wy7" secondAttribute="trailing" type="default" id="E3k-ow-Y7D"/>
                             <constraint firstItem="z5c-uh-wy7" firstAttribute="top" secondItem="fQb-kC-dZ7" secondAttribute="top" constant="20" symbolic="YES" type="default" id="HIq-BA-fM3"/>
                             <constraint firstItem="5JR-WY-VH7" firstAttribute="top" secondItem="z5c-uh-wy7" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="Kul-cw-CYz"/>
-                            <constraint firstItem="5UF-9O-3P4" firstAttribute="centerX" secondItem="5JR-WY-VH7" secondAttribute="centerX" type="default" id="RYP-dL-E8m"/>
                             <constraint firstItem="iIO-M1-2AH" firstAttribute="top" secondItem="5JR-WY-VH7" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="Tka-87-eGH"/>
-                            <constraint firstItem="5UF-9O-3P4" firstAttribute="bottom" secondItem="fQb-kC-dZ7" secondAttribute="bottom" type="default" id="hWd-8W-Kix"/>
+                            <constraint firstItem="5JR-WY-VH7" firstAttribute="leading" secondItem="fQb-kC-dZ7" secondAttribute="leading" constant="73" id="ucW-Iq-wpS"/>
                         </constraints>
                         <connections>
                             <outletCollection property="gestureRecognizers" destination="S4g-5h-JNp" appends="YES" id="o5j-fx-3pr"/>
@@ -187,14 +175,13 @@
                         <rect key="frame" x="0.0" y="64" width="320" height="460"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                        <adBannerView key="tableFooterView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="LPk-Oq-6hv">
-                            <rect key="frame" x="0.0" y="324" width="320" height="52"/>
-                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                            <requiredContentSizeIdentifiers>
-                                <string>ADBannerContentSizeLandscape</string>
-                                <string>ADBannerContentSizePortrait</string>
-                            </requiredContentSizeIdentifiers>
-                        </adBannerView>
+                        <label key="tableFooterView" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Developed by Algos     " textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ASh-lE-Cbq">
+                            <rect key="frame" x="0.0" y="326" width="320" height="44"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="HiraKakuProN-W6" family="Hiragino Kaku Gothic ProN" pointSize="14"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
                         <sections>
                             <tableViewSection headerTitle="Weight Entry" id="pf5-NV-wA0">
                                 <cells>
@@ -414,6 +401,54 @@
         <image name="graph.png" width="30" height="30"/>
         <image name="plus.png" width="30" height="30"/>
     </resources>
+    <classes>
+        <class className="DetailViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/DetailViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="averageTextField" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="dateTextField" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="gainTextField" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="lossTextField" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="weightTextField" candidateClass="UITextField"/>
+            </relationships>
+        </class>
+        <class className="EnterWeightViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/EnterWeightViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="changeUnits:"/>
+                <relationship kind="action" name="handleDownwardSwipe:"/>
+                <relationship kind="action" name="handleUpwardSwipe:"/>
+                <relationship kind="action" name="saveWeight:"/>
+                <relationship kind="outlet" name="dateLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="weightTextField" candidateClass="UITextField"/>
+            </relationships>
+        </class>
+        <class className="GraphView" superclassName="UIView">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/GraphView.h"/>
+        </class>
+        <class className="GraphViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/GraphViewController.h"/>
+        </class>
+        <class className="HistoryCell" superclassName="UITableViewCell">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/HistoryCell.h"/>
+            <relationships>
+                <relationship kind="outlet" name="dateLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="weightLabel" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="HistoryViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/HistoryViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="deleteAllButtonPressed:"/>
+            </relationships>
+        </class>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="TabBarController" superclassName="UITabBarController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/TabBarController.h"/>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

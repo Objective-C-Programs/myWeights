@@ -102,14 +102,9 @@ static NSString* const DetailViewSegueIdentifier = @"Push Detail View";
 - (void)viewWillAppear:(BOOL)animated
 {
     //-- Send request
-    if(NOTIFICHE_ON){
-        [Request requestAutomaticNewHeadRecord];
-        [Request requestEventWithDomain:nil
-                             withAction:nil
-                           withUniqueId:nil
-                          withEventCode:@"2"
-                       withEventDetails:[NSString stringWithFormat:@"tot pesi = %i", [self.weightHistory countOfWeightHistory]]];
-    }
+    int count = [self.weightHistory countOfWeightHistory];
+    [Request requestWithDomain:nil withEventCode:@"3" andEventDetails:[NSString stringWithFormat:@"Visione lista pesi - tot: %i", count]];
+    
     
     if ([EnterWeightViewController withData]) {
         
@@ -117,7 +112,6 @@ static NSString* const DetailViewSegueIdentifier = @"Push Detail View";
         [db openDB];
         WITH_SQLITE ? [db createTable]: [db createTablePesate];
         NSArray *array = [db getAllPesi];
-        int count = [self.weightHistory countOfWeightHistory];
         NSLog(@"Count of Array = %i", count);
         
         /*
@@ -132,15 +126,6 @@ static NSString* const DetailViewSegueIdentifier = @"Push Detail View";
         //-- Load Array
         for (WeightEntry *entry in array) {
             [self.weightHistory addWeight:entry];
-        }
-        
-        if (NOTIFICHE_ON) {
-            [Request requestAutomaticNewHeadRecord];
-            [Request requestEventWithDomain:nil
-                                 withAction:nil
-                               withUniqueId:nil
-                              withEventCode:@"2"
-                           withEventDetails:[NSString stringWithFormat:@"tot pesi = %i", [self.weightHistory countOfWeightHistory]]];
         }
 
         //-- Reload Data
