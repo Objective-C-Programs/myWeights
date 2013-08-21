@@ -12,7 +12,6 @@
 #import "EnterWeightViewController.h"
 #import "HistoryCell.h"
 #import "Pesi.h"
-#import "Request.h"
 #import "Database.h"
 #import "Debug.h"
 
@@ -103,7 +102,9 @@ static NSString* const DetailViewSegueIdentifier = @"Push Detail View";
 {
     //-- Send request
     int count = [self.weightHistory countOfWeightHistory];
-    [Request requestWithDomain:nil withEventCode:@"3" andEventDetails:[NSString stringWithFormat:@"Visione lista pesi - tot: %i", count]];
+    
+    //TODO: REQUEST
+//[Request requestWithDomain:nil withEventCode:@"3" andEventDetails:[NSString stringWithFormat:@"Visione lista pesi - tot: %i", count]];
     
     
     if ([EnterWeightViewController withData]) {

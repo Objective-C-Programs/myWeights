@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>myGlicemia.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>myWeight.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>myWeights-iPad.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>zenWeight.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>A907516A16FB691D001C10C9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A93CE17E16518A900069257A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A93CE1B016518A910069257A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A9FBAC3316E0A7110056E281</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A9FBAC6416E0A74C0056E281</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

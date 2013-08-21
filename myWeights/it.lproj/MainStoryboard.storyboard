@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12D78" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="4">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12E55" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="4">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
@@ -58,16 +58,27 @@
                                     <action selector="saveWeight:" destination="7Hi-oN-sfX" eventType="editingDidEndOnExit" id="4vE-IX-mn0"/>
                                 </connections>
                             </textField>
+                            <navigationBar contentMode="scaleToFill" barStyle="blackOpaque" translatesAutoresizingMaskIntoConstraints="NO" id="exi-vH-LJ4">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="320" id="buG-sA-jw1"/>
+                                </constraints>
+                                <color key="tintColor" red="0.1169418804862408" green="0.40741113020257935" blue="0.55413552989130432" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <navigationItem title="myWeight" id="jia-kw-jOD"/>
+                                </items>
+                            </navigationBar>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="0.98436789245724032" blue="0.97264995676857613" alpha="1" colorSpace="calibratedRGB"/>
                         <gestureRecognizers/>
                         <constraints>
-                            <constraint firstItem="iIO-M1-2AH" firstAttribute="top" secondItem="fQb-kC-dZ7" secondAttribute="top" constant="104" id="CBm-2V-2Tm"/>
-                            <constraint firstItem="z5c-uh-wy7" firstAttribute="top" secondItem="fQb-kC-dZ7" secondAttribute="top" constant="20" symbolic="YES" type="default" id="HIq-BA-fM3"/>
+                            <constraint firstItem="z5c-uh-wy7" firstAttribute="top" secondItem="fQb-kC-dZ7" secondAttribute="top" constant="60" id="8Xg-Ql-kVl"/>
                             <constraint firstItem="5JR-WY-VH7" firstAttribute="top" secondItem="z5c-uh-wy7" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="Kul-cw-CYz"/>
+                            <constraint firstItem="iIO-M1-2AH" firstAttribute="top" secondItem="fQb-kC-dZ7" secondAttribute="top" constant="144" id="fJr-gJ-VYl"/>
                             <constraint firstAttribute="trailing" secondItem="z5c-uh-wy7" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="hBh-e4-Gtd"/>
+                            <constraint firstItem="exi-vH-LJ4" firstAttribute="top" secondItem="fQb-kC-dZ7" secondAttribute="top" type="default" id="iVx-3L-VkZ"/>
                             <constraint firstItem="5JR-WY-VH7" firstAttribute="centerX" secondItem="fQb-kC-dZ7" secondAttribute="centerX" type="default" id="rx8-cd-lQR"/>
                             <constraint firstItem="iIO-M1-2AH" firstAttribute="trailing" secondItem="5JR-WY-VH7" secondAttribute="trailing" type="default" id="tND-MC-UhT"/>
+                            <constraint firstItem="exi-vH-LJ4" firstAttribute="centerX" secondItem="iIO-M1-2AH" secondAttribute="centerX" type="default" id="ziv-cj-ebz"/>
                         </constraints>
                         <connections>
                             <outletCollection property="gestureRecognizers" destination="S4g-5h-JNp" appends="YES" id="o5j-fx-3pr"/>

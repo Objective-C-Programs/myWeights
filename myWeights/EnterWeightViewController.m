@@ -11,7 +11,6 @@
 #import "Database.h"
 #import "AppDelegate.h"
 #import "Debug.h"
-#import "Request.h"
 
 static NSString * const UNIT_SELECTOR_SEGUE = @"Unit Selector Segue";
 static BOOL const WITH_DB = YES;
@@ -131,7 +130,8 @@ static NSString * const PLIST_NAME = @"Pesi";
 
 - (void)viewWillAppear:(BOOL)animated {
     
-    [Request requestWithDomain:nil withEventCode:@"1" andEventDetails:@"Open App"];
+    //TODO: REQUEST
+    // [Request requestWithDomain:nil withEventCode:@"1" andEventDetails:@"Open App"];
     // Sets the current time and date.
     self.currentDate = [NSDate date];
     
@@ -155,7 +155,8 @@ static NSString * const PLIST_NAME = @"Pesi";
     NSNumber* weight = [self.numberFormatter
                         numberFromString:self.weightTextField.text];
     
-    [Request requestWithDomain:nil withEventCode:@"2" andEventDetails:@"Insert new weight"];
+   //TODO: REQUEST
+    //[Request requestWithDomain:nil withEventCode:@"2" andEventDetails:@"Insert new weight"];
     
     /*WeightEntry* entry = [[WeightEntry alloc]
      initWithWeight:[weight floatValue]

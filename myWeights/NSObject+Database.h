@@ -9,7 +9,6 @@
 #import <Foundation/Foundation.h>
 #import "sqlite3.h"
 #import "Database.h"
-#import "Request.h"
 @interface NSObject (Database)
 
 //*********************************

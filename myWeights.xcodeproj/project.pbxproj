@@ -101,18 +101,6 @@
 		A9812936166BF9B40024B411 /* plus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9812934166BF9B40024B411 /* plus@2x.png */; };
 		A99224741704A6E900777E95 /* icon114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = A99224731704A6E900777E95 /* icon114x114.png */; };
 		A99224761704A6EC00777E95 /* icon57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = A99224751704A6EC00777E95 /* icon57x57.png */; };
-		A992247F1704A86F00777E95 /* Request.m in Sources */ = {isa = PBXBuildFile; fileRef = A992247A1704A86F00777E95 /* Request.m */; };
-		A99224801704A86F00777E95 /* Request.m in Sources */ = {isa = PBXBuildFile; fileRef = A992247A1704A86F00777E95 /* Request.m */; };
-		A99224811704A86F00777E95 /* Request.m in Sources */ = {isa = PBXBuildFile; fileRef = A992247A1704A86F00777E95 /* Request.m */; };
-		A99224831704A86F00777E95 /* Request.m in Sources */ = {isa = PBXBuildFile; fileRef = A992247A1704A86F00777E95 /* Request.m */; };
-		A99224841704A86F00777E95 /* RequestDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A992247C1704A86F00777E95 /* RequestDelegate.m */; };
-		A99224851704A86F00777E95 /* RequestDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A992247C1704A86F00777E95 /* RequestDelegate.m */; };
-		A99224861704A86F00777E95 /* RequestDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A992247C1704A86F00777E95 /* RequestDelegate.m */; };
-		A99224881704A86F00777E95 /* RequestDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A992247C1704A86F00777E95 /* RequestDelegate.m */; };
-		A99224891704A86F00777E95 /* RequestEventDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A992247E1704A86F00777E95 /* RequestEventDelegate.m */; };
-		A992248A1704A86F00777E95 /* RequestEventDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A992247E1704A86F00777E95 /* RequestEventDelegate.m */; };
-		A992248B1704A86F00777E95 /* RequestEventDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A992247E1704A86F00777E95 /* RequestEventDelegate.m */; };
-		A992248D1704A86F00777E95 /* RequestEventDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A992247E1704A86F00777E95 /* RequestEventDelegate.m */; };
 		A9A8E4D11675199E00D07FAB /* Debug.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A8E4D01675199E00D07FAB /* Debug.m */; };
 		A9BBC34A166E92FE00945B03 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9BBC349166E92FE00945B03 /* iAd.framework */; };
 		A9BE98BB1685E6E700120EF5 /* NSObject+Database.m in Sources */ = {isa = PBXBuildFile; fileRef = A9BE98BA1685E6E700120EF5 /* NSObject+Database.m */; };
@@ -207,14 +195,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A907516916FB68E0001C10C9 /* myWeights copy5-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "myWeights copy5-Info.plist"; path = "/Users/Marco/Documents/Xcode/myWeights/myWeights/myWeights copy5-Info.plist"; sourceTree = "<absolute>"; };
 		A907519B16FB691D001C10C9 /* zenWeight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zenWeight.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A907519C16FB691D001C10C9 /* myWeights copy6-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "myWeights copy6-Info.plist"; path = "/Users/Marco/Documents/Xcode/myWeights/myWeights/myWeights copy6-Info.plist"; sourceTree = "<absolute>"; };
 		A90BF169165B80EC00EE5D65 /* 57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 57x57.png; path = ../57x57.png; sourceTree = "<group>"; };
 		A90BF16C165B80EF00EE5D65 /* 114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 114x114.png; path = ../114x114.png; sourceTree = "<group>"; };
-		A925361C166F8FF100B2F399 /* myWeights copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "myWeights copy-Info.plist"; path = "/Users/Marco/Documents/Xcode/myWeights/myWeights copy-Info.plist"; sourceTree = "<absolute>"; };
-		A926E7981704C6FD00202ED7 /* myWeights copy7-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "myWeights copy7-Info.plist"; path = "/Users/Marco/Documents/Xcode/myWeights/myWeights/myWeights copy7-Info.plist"; sourceTree = "<absolute>"; };
-		A926E7CD1704C71900202ED7 /* myWeights copy8-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "myWeights copy8-Info.plist"; path = "/Users/Marco/Documents/Xcode/myWeights/myWeights/myWeights copy8-Info.plist"; sourceTree = "<absolute>"; };
 		A935011D166CF07D00C2118F /* it */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = it; path = it.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		A935011E166CF07D00C2118F /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A935011F166CF07D00C2118F /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -277,23 +260,13 @@
 		A9812934166BF9B40024B411 /* plus@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "plus@2x.png"; path = "../plus@2x.png"; sourceTree = "<group>"; };
 		A99224731704A6E900777E95 /* icon114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon114x114.png; sourceTree = "<group>"; };
 		A99224751704A6EC00777E95 /* icon57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon57x57.png; sourceTree = "<group>"; };
-		A99224781704A86F00777E95 /* Request-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Request-Prefix.pch"; sourceTree = "<group>"; };
-		A99224791704A86F00777E95 /* Request.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Request.h; sourceTree = "<group>"; };
-		A992247A1704A86F00777E95 /* Request.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Request.m; sourceTree = "<group>"; };
-		A992247B1704A86F00777E95 /* RequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestDelegate.h; sourceTree = "<group>"; };
-		A992247C1704A86F00777E95 /* RequestDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestDelegate.m; sourceTree = "<group>"; };
-		A992247D1704A86F00777E95 /* RequestEventDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestEventDelegate.h; sourceTree = "<group>"; };
-		A992247E1704A86F00777E95 /* RequestEventDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestEventDelegate.m; sourceTree = "<group>"; };
 		A9A8E4CF1675199E00D07FAB /* Debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Debug.h; sourceTree = "<group>"; };
 		A9A8E4D01675199E00D07FAB /* Debug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Debug.m; sourceTree = "<group>"; };
 		A9BBC349166E92FE00945B03 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 		A9BE98B91685E6E700120EF5 /* NSObject+Database.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Database.h"; sourceTree = "<group>"; };
 		A9BE98BA1685E6E700120EF5 /* NSObject+Database.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Database.m"; sourceTree = "<group>"; };
 		A9FBAC6216E0A7110056E281 /* myWeights-iPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "myWeights-iPad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A9FBAC6316E0A7110056E281 /* myWeights copy2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "myWeights copy2-Info.plist"; path = "/Users/Marco/Documents/Xcode/myWeights/myWeights/myWeights copy2-Info.plist"; sourceTree = "<absolute>"; };
 		A9FBAC9316E0A74C0056E281 /* myWeights copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "myWeights copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A9FBAC9416E0A74D0056E281 /* myWeights copy3-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "myWeights copy3-Info.plist"; path = "/Users/Marco/Documents/Xcode/myWeights/myWeights/myWeights copy3-Info.plist"; sourceTree = "<absolute>"; };
-		A9FBACC516E0ABE10056E281 /* myWeights copy4-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "myWeights copy4-Info.plist"; path = "/Users/Marco/Documents/Xcode/myWeights/myWeights/myWeights copy4-Info.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -376,14 +349,6 @@
 				A93CE1B816518A910069257A /* myWeightsTests */,
 				A93CE18216518A900069257A /* Frameworks */,
 				A93CE18016518A900069257A /* Products */,
-				A925361C166F8FF100B2F399 /* myWeights copy-Info.plist */,
-				A9FBAC6316E0A7110056E281 /* myWeights copy2-Info.plist */,
-				A9FBAC9416E0A74D0056E281 /* myWeights copy3-Info.plist */,
-				A9FBACC516E0ABE10056E281 /* myWeights copy4-Info.plist */,
-				A907516916FB68E0001C10C9 /* myWeights copy5-Info.plist */,
-				A907519C16FB691D001C10C9 /* myWeights copy6-Info.plist */,
-				A926E7981704C6FD00202ED7 /* myWeights copy7-Info.plist */,
-				A926E7CD1704C71900202ED7 /* myWeights copy8-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -414,7 +379,6 @@
 		A93CE18916518A900069257A /* myWeights */ = {
 			isa = PBXGroup;
 			children = (
-				A99224771704A86F00777E95 /* Request */,
 				A93CE1E916518FE70069257A /* Views */,
 				A93CE1CE16518B9B0069257A /* Models */,
 				A93CE1C916518B670069257A /* Controllers */,
@@ -511,21 +475,6 @@
 				A93CE203165192680069257A /* HistoryCell.m */,
 			);
 			name = Views;
-			sourceTree = "<group>";
-		};
-		A99224771704A86F00777E95 /* Request */ = {
-			isa = PBXGroup;
-			children = (
-				A99224781704A86F00777E95 /* Request-Prefix.pch */,
-				A99224791704A86F00777E95 /* Request.h */,
-				A992247A1704A86F00777E95 /* Request.m */,
-				A992247B1704A86F00777E95 /* RequestDelegate.h */,
-				A992247C1704A86F00777E95 /* RequestDelegate.m */,
-				A992247D1704A86F00777E95 /* RequestEventDelegate.h */,
-				A992247E1704A86F00777E95 /* RequestEventDelegate.m */,
-			);
-			name = Request;
-			path = ../../../../MyProjects/Request/Request;
 			sourceTree = "<group>";
 		};
 		A9A8E4C71674D90600D07FAB /* Image */ = {
@@ -831,9 +780,6 @@
 				A907517C16FB691D001C10C9 /* HistoryCell.m in Sources */,
 				A907517D16FB691D001C10C9 /* Debug.m in Sources */,
 				A907517F16FB691D001C10C9 /* NSObject+Database.m in Sources */,
-				A99224831704A86F00777E95 /* Request.m in Sources */,
-				A99224881704A86F00777E95 /* RequestDelegate.m in Sources */,
-				A992248D1704A86F00777E95 /* RequestEventDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -860,9 +806,6 @@
 				A93CE204165192690069257A /* HistoryCell.m in Sources */,
 				A9A8E4D11675199E00D07FAB /* Debug.m in Sources */,
 				A9BE98BB1685E6E700120EF5 /* NSObject+Database.m in Sources */,
-				A992247F1704A86F00777E95 /* Request.m in Sources */,
-				A99224841704A86F00777E95 /* RequestDelegate.m in Sources */,
-				A99224891704A86F00777E95 /* RequestEventDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -909,9 +852,6 @@
 				A9FBAC4516E0A7110056E281 /* HistoryCell.m in Sources */,
 				A9FBAC4616E0A7110056E281 /* Debug.m in Sources */,
 				A9FBAC4816E0A7110056E281 /* NSObject+Database.m in Sources */,
-				A99224801704A86F00777E95 /* Request.m in Sources */,
-				A99224851704A86F00777E95 /* RequestDelegate.m in Sources */,
-				A992248A1704A86F00777E95 /* RequestEventDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -938,9 +878,6 @@
 				A9FBAC7616E0A74C0056E281 /* HistoryCell.m in Sources */,
 				A9FBAC7716E0A74C0056E281 /* Debug.m in Sources */,
 				A9FBAC7916E0A74C0056E281 /* NSObject+Database.m in Sources */,
-				A99224811704A86F00777E95 /* Request.m in Sources */,
-				A99224861704A86F00777E95 /* RequestDelegate.m in Sources */,
-				A992248B1704A86F00777E95 /* RequestEventDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
